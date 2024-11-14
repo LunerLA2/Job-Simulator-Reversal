@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302042b27749c0e3372547227a137bf0, type: 3}
+  m_Name: SUBTASK_EatSnack_Endless
+  m_EditorClassIdentifier:
+  subtaskIconLayoutType: 0
+  actionEventConditions:
+  - actionEventData: {fileID: 11400000, guid: d25880389aa4cdd459debdb1e1790c45, type: 2}
+    worldItemData1: {fileID: 11400000, guid: d914fdda49059f74ca4490de70340205, type: 2}
+    worldItemData2: {fileID: 11400000, guid: fbba2ee56b91e7a46a09e95e56d33ea6, type: 2}
+    amount: 0
+    isPositive: 1
+  - actionEventData: {fileID: 11400000, guid: d25880389aa4cdd459debdb1e1790c45, type: 2}
+    worldItemData1: {fileID: 11400000, guid: 0575e274181eace438a5fbb4e465b11b, type: 2}
+    worldItemData2: {fileID: 11400000, guid: fbba2ee56b91e7a46a09e95e56d33ea6, type: 2}
+    amount: 0
+    isPositive: 1
+  - actionEventData: {fileID: 11400000, guid: d25880389aa4cdd459debdb1e1790c45, type: 2}
+    worldItemData1: {fileID: 11400000, guid: 7b535a54da2f56647a104e164dd949d6, type: 2}
+    worldItemData2: {fileID: 11400000, guid: fbba2ee56b91e7a46a09e95e56d33ea6, type: 2}
+    amount: 0
+    isPositive: 1
+  - actionEventData: {fileID: 11400000, guid: d25880389aa4cdd459debdb1e1790c45, type: 2}
+    worldItemData1: {fileID: 11400000, guid: 0d628b11b4846664b9f297c1624b1b8e, type: 2}
+    worldItemData2: {fileID: 11400000, guid: fbba2ee56b91e7a46a09e95e56d33ea6, type: 2}
+    amount: 0
+    isPositive: 1
+  layoutDependantSpriteOne: {fileID: 21300000, guid: b920d0700015fa145a3df762f984a420, type: 2}
+  layoutDependantSpriteTwo: {fileID: 21300000, guid: 698b2d19686740c41becfa2d7b9f4577, type: 2}
+  layoutDependantSpriteThree: {fileID: 0}
+  layoutDependantSpriteFour: {fileID: 0}
+  layoutDependantSpriteFive: {fileID: 0}
+  counterSize: 0
+  hideCounterOnJobBoard: 0
+  onlyTrackProgressWhenVisible: 1
+  subtasksToAutoComplete:
+  - {fileID: 11400000, guid: 9440f8760726780458d990dfc647eac6, type: 2}
+  - {fileID: 11400000, guid: c52421bdeec58684a933529e7fc65282, type: 2}
+  disallowUncompleteOnAutoCompletedSubtasks: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 4WakeUpComputer
+  m_EditorClassIdentifier:
+  textBody: '"Now you''re ready to start your day!" pipes JOB BOT. "It''s time for [COMPUTER]." JOB BOT''s voice strains on the last word, as if not completely grasping the concept. You turn to your computer. It is currently OFF.'
+  options:
+  - Turn the monitor on.
+  - Turn the computer on.
+  - Check if everything is plugged in.
+  results:
+  - The monitor does not appear to be plugged in.
+  - The computer does not turn on. Maybe it's not plugged in?
+  - Using your fantastic JOB skills, you notice the computer and monitor are not plugged in. You locate the loose plugs, shove them into the power strip and turn on the computer.
+  goToTaskOnComplete:
+  - 4
+  - 4
+  - 5
+  isStartOfNewTask: 1

@@ -1,0 +1,663 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09921f824bd8bf7eced28681c550434c, type: 3}
+  m_Name: CEOBot
+  m_EditorClassIdentifier:
+  brainType: 0
+  folderIDs: []
+  worldItemData: {fileID: 11400000, guid: 4533797eec9295a4e87aef4fcf5f5efd, type: 2}
+  costumeData: {fileID: 11400000, guid: 5617ebe93d9fba14abc64475be1a0a6f, type: 2}
+  canBeHitWhileTweening: 1
+  canBeHitWhileInTransit: 0
+  canBeHitWhileParented: 0
+  hideHoverFxWhileParented: 1
+  isOptimizedBackgroundBot: 0
+  uniqueObjectIDOfControlledObject:
+  presentInSceneByDefault: 1
+  controlledPrefab: {fileID: 0}
+  entries:
+  - folderID:
+    causes:
+    - causeType: 35
+      jobData: {fileID: 0}
+      taskData: {fileID: 11400000, guid: 505a19971399c304d9cb3e0725a3c9c4, type: 2}
+      pageData: {fileID: 0}
+      subtaskData: {fileID: 0}
+      actionEventData: {fileID: 0}
+      worldItemData: {fileID: 0}
+      appliedToWorldItemData: {fileID: 0}
+      amount: 0
+      brainData: {fileID: 0}
+      textData:
+      numberData: 0
+      layoutData: {fileID: 0}
+    effects:
+    - delay: 0
+      timingType: 0
+      effectType: 8
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: LiftCenter
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 0
+      effectType: 15
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 1
+      floatInfo: 1
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 2
+      effectType: 35
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: DriverSeat_CEO
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 7
+      timingType: 2
+      effectType: 35
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 6
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 2
+      effectType: 1
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: OpenDriverDoor
+      numberInfo: 2
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 11400000, guid: 25dca45af76d6514e8a756941da8e6a4, type: 2}
+    - delay: 0
+      timingType: 1
+      effectType: 2
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: ExitCarToRight
+      numberInfo: 1
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 2
+      effectType: 0
+      audioClipInfo: {fileID: 8300000, guid: 80bf48bf9ac616849a7d4d19b492ce0b, type: 3}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 1
+      timingType: 1
+      effectType: 1
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: Lift
+      numberInfo: 2
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 11400000, guid: 25dca45af76d6514e8a756941da8e6a4, type: 2}
+    - delay: 1
+      timingType: 2
+      effectType: 13
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: FloatRight
+      numberInfo: 3
+      floatInfo: 0
+      gameObjectInfo: {fileID: 1997862038828293, guid: 88d6e41b3ea15f243986944ee0cee754, type: 2}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 2
+      effectType: 15
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: 1.1|2
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    logicType: 0
+    effectOverrideType: 0
+  - folderID:
+    causes:
+    - causeType: 24
+      jobData: {fileID: 0}
+      taskData: {fileID: 0}
+      pageData: {fileID: 11400000, guid: dcf9ef214af22ec44b014bfec7afedf6, type: 2}
+      subtaskData: {fileID: 0}
+      actionEventData: {fileID: 0}
+      worldItemData: {fileID: 0}
+      appliedToWorldItemData: {fileID: 0}
+      amount: 0
+      brainData: {fileID: 0}
+      textData:
+      numberData: 0
+      layoutData: {fileID: 0}
+    effects:
+    - delay: 0
+      timingType: 0
+      effectType: 16
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: LiftCenter
+      numberInfo: 1
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 0
+      effectType: 6
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: WaitingRoomPos
+      numberInfo: 0
+      floatInfo: 3
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    logicType: 0
+    effectOverrideType: 0
+  - folderID:
+    causes:
+    - causeType: 24
+      jobData: {fileID: 0}
+      taskData: {fileID: 0}
+      pageData: {fileID: 11400000, guid: e8233754b9aa7264cb39a1e740b42f2f, type: 2}
+      subtaskData: {fileID: 0}
+      actionEventData: {fileID: 0}
+      worldItemData: {fileID: 0}
+      appliedToWorldItemData: {fileID: 0}
+      amount: 0
+      brainData: {fileID: 0}
+      textData:
+      numberData: 0
+      layoutData: {fileID: 0}
+    effects:
+    - delay: 1
+      timingType: 0
+      effectType: 16
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 2
+      effectType: 0
+      audioClipInfo: {fileID: 8300000, guid: 0d00d46c16327144994a3f83ab4e7ef9, type: 3}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 2
+      timingType: 2
+      effectType: 16
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: LiftCenter
+      numberInfo: 1
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    logicType: 0
+    effectOverrideType: 0
+  - folderID:
+    causes:
+    - causeType: 40
+      jobData: {fileID: 0}
+      taskData: {fileID: 0}
+      pageData: {fileID: 11400000, guid: fadb5304fb8f3654b80e83df526c1434, type: 2}
+      subtaskData: {fileID: 0}
+      actionEventData: {fileID: 0}
+      worldItemData: {fileID: 0}
+      appliedToWorldItemData: {fileID: 0}
+      amount: 0
+      brainData: {fileID: 0}
+      textData:
+      numberData: 0
+      layoutData: {fileID: 0}
+    effects:
+    - delay: 0
+      timingType: 0
+      effectType: 16
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 0
+      effectType: 11
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 11400000, guid: aa31766898069f24eb73a2de9e3b7798, type: 2}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 0
+      effectType: 11
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 11
+      floatInfo: 0.6
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 0
+      effectType: 3
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: ExitCarToRight
+      numberInfo: -1
+      floatInfo: 2
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    logicType: 0
+    effectOverrideType: 0
+  - folderID:
+    causes:
+    - causeType: 40
+      jobData: {fileID: 0}
+      taskData: {fileID: 0}
+      pageData: {fileID: 11400000, guid: 8ebf4abbbf90d24468d6a89f912bfd4f, type: 2}
+      subtaskData: {fileID: 0}
+      actionEventData: {fileID: 0}
+      worldItemData: {fileID: 0}
+      appliedToWorldItemData: {fileID: 0}
+      amount: 0
+      brainData: {fileID: 0}
+      textData:
+      numberData: 0
+      layoutData: {fileID: 0}
+    effects:
+    - delay: 0
+      timingType: 0
+      effectType: 16
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 0
+      effectType: 11
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 10
+      floatInfo: 0.6
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 0
+      effectType: 11
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 11400000, guid: 9e303d27557002642afc47d4309191d9, type: 2}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 0
+      effectType: 3
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: ExitCarToRight
+      numberInfo: -1
+      floatInfo: 2
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    logicType: 0
+    effectOverrideType: 0
+  - folderID:
+    causes:
+    - causeType: 22
+      jobData: {fileID: 0}
+      taskData: {fileID: 11400000, guid: 505a19971399c304d9cb3e0725a3c9c4, type: 2}
+      pageData: {fileID: 0}
+      subtaskData: {fileID: 0}
+      actionEventData: {fileID: 0}
+      worldItemData: {fileID: 0}
+      appliedToWorldItemData: {fileID: 0}
+      amount: 0
+      brainData: {fileID: 0}
+      textData:
+      numberData: 0
+      layoutData: {fileID: 0}
+    effects:
+    - delay: 2
+      timingType: 0
+      effectType: 0
+      audioClipInfo: {fileID: 8300000, guid: 55e2c811bb6ab6e4e9529898653247bd, type: 3}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 7
+      timingType: 0
+      effectType: 15
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 1
+      floatInfo: 1
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0.5
+      timingType: 2
+      effectType: 2
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: ExitCarToRight
+      numberInfo: 3
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 1
+      effectType: 14
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 0
+      floatInfo: 4
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 1
+      effectType: 1
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: OpenPassengerDoor
+      numberInfo: 2
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 11400000, guid: 25dca45af76d6514e8a756941da8e6a4, type: 2}
+    - delay: 0
+      timingType: 1
+      effectType: 16
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 3
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 1
+      timingType: 2
+      effectType: 35
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: DriverSeat_CEO
+      numberInfo: 5
+      floatInfo: 1
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0.5
+      timingType: 2
+      effectType: 1
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo: Exit
+      numberInfo: 2
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 11400000, guid: 25dca45af76d6514e8a756941da8e6a4, type: 2}
+    - delay: 5
+      timingType: 2
+      effectType: 35
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 6
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    - delay: 0
+      timingType: 2
+      effectType: 9
+      audioClipInfo: {fileID: 0}
+      audioClipListInfo: []
+      botVOInfoDataInfo: {fileID: 0}
+      botVOInfoDataListInfo: []
+      textInfo:
+      numberInfo: 0
+      floatInfo: 0
+      gameObjectInfo: {fileID: 0}
+      costumeDataInfo: {fileID: 0}
+      spriteInfo: {fileID: 0}
+      worldItemDataInfo: {fileID: 0}
+      actionEventDataInfo: {fileID: 0}
+      brainDataInfo: {fileID: 0}
+    logicType: 0
+    effectOverrideType: 0
+  includeBrains: []

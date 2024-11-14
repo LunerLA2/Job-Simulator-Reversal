@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 5WakeUpComputerPt2
+  m_EditorClassIdentifier:
+  textBody: JOB BOT seems delighted at your ingenuity. "The computer is the most important facet of the office, with humans and safety being a close 2nd and third," they explain. \n\n The computer now shows a login screen and asks for your password. Your keyboard only seems to have a 1 and a 0 key on it. Interesting.
+  options:
+  - Password? No one gave me a password.
+  - Attempt to locate the password.
+  - Type 101.
+  - Mash your face on the keyboard and hit log in.
+  results:
+  - Perhaps you should look for it. Surely, a note of some kind must be on this desk.
+  - 'A sticky note attached to your monitor reads ''Password: 010.'''
+  - Nice try, dodongo. Maybe in 68 years.
+  - The computer unlocks and pops you onto the desktop. Weird.
+  goToTaskOnComplete:
+  - 5
+  - 6
+  - 5
+  - 7
+  isStartOfNewTask: 0

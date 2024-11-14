@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1050382397477912
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4248616321121772}
+  - 54: {fileID: 54979412562276894}
+  - 114: {fileID: 114668844736050101}
+  - 114: {fileID: 114479629527874711}
+  - 114: {fileID: 114357228513874858}
+  m_Layer: 0
+  m_Name: EnergyRepItems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1032309009819505
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4411551975886629}
+  - 114: {fileID: 114526752882421306}
+  m_Layer: 0
+  m_Name: EnergyDrinkCan-PrefabSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1734959722683769
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4454861834067328}
+  - 114: {fileID: 114382853794386176}
+  m_Layer: 0
+  m_Name: EnergyDrinkCan (1)-PrefabSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1162995597195519
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4587879794576786}
+  - 114: {fileID: 114899865898496199}
+  m_Layer: 0
+  m_Name: EnergyDrinkCan (2)-PrefabSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1551933969540716
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4638606012645716}
+  - 114: {fileID: 114772620131593753}
+  m_Layer: 0
+  m_Name: EnergyDrinkCan (3)-PrefabSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1909528210065267
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4776304429110773}
+  - 114: {fileID: 114353652240490767}
+  m_Layer: 0
+  m_Name: EnergyDrinkLogoSign-PrefabSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4248616321121772
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050382397477912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.33324125, y: 1.3961147, z: 0.7197934}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4411551975886629}
+  - {fileID: 4454861834067328}
+  - {fileID: 4587879794576786}
+  - {fileID: 4638606012645716}
+  - {fileID: 4776304429110773}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!54 &54979412562276894
+Rigidbody:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050382397477912}
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114668844736050101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050382397477912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21821f8dc36e69dd2220c02940ac913d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  manageRegistrationAutomatically: 1
+  forceNameOfObject: 1
+  forcedNameToApply: EnergyRepItems
+  remainRegisteredWhileInactive: 0
+  optionalAssociatedAttachpoint: {fileID: 0}
+  optionalAssociatedClearAreaChecker: {fileID: 0}
+--- !u!114 &114479629527874711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050382397477912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781af27b68f6137fd871cd2f2b003280, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  existingRBs: []
+  spawnersWithRBs:
+  - {fileID: 114526752882421306}
+  - {fileID: 114382853794386176}
+  - {fileID: 114899865898496199}
+  - {fileID: 114772620131593753}
+  - {fileID: 114353652240490767}
+  uniqueObjectToBeEjected: {fileID: 114668844736050101}
+  kinematicStateOnStart: 1
+  kinematicStateOnEject: 0
+  unparentOnEject: 1
+  alsoLookForPickupables: 1
+  pickupableStateOnStart: 0
+  pickupableStateOnEject: 1
+--- !u!114 &114357228513874858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050382397477912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfc0a5d4126f5c64ebe95925e6c25501, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  localPosWhenHeldAsLargeItem: {x: -0.185, y: 0.127, z: -0.439}
+  localRotWhenHeldAsLargeItem: {x: 0, y: 0, z: 0}
+  localRotWhenHeldAsSmallItem: {x: 0, y: 0, z: 0}
+  registerAsLargeWhenGrabbedNormally: 0
+--- !u!4 &4411551975886629
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032309009819505}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -0.050000012, y: 0, z: 0.050000012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 89.99999, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4248616321121772}
+  m_RootOrder: 0
+--- !u!114 &114526752882421306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032309009819505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f108d2b0dc1347ce692cedb5c98a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnOnAwake: 1
+  spawnOnStart: 0
+  prefab: {fileID: 1854801205463091, guid: 86b3f5bb73abc004baf87e6c3b88ae1f, type: 2}
+--- !u!4 &4454861834067328
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734959722683769}
+  m_LocalRotation: {x: 0, y: -0.9914448, z: 0, w: -0.13052636}
+  m_LocalPosition: {x: 0.050000012, y: 0, z: 0.050000012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -180, y: -15.00002, z: 180}
+  m_Children: []
+  m_Father: {fileID: 4248616321121772}
+  m_RootOrder: 1
+--- !u!114 &114382853794386176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734959722683769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f108d2b0dc1347ce692cedb5c98a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnOnAwake: 1
+  spawnOnStart: 0
+  prefab: {fileID: 1854801205463091, guid: 86b3f5bb73abc004baf87e6c3b88ae1f, type: 2}
+--- !u!4 &4587879794576786
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1162995597195519}
+  m_LocalRotation: {x: 0, y: 0.70710665, z: 0, w: 0.70710695}
+  m_LocalPosition: {x: 0.050000012, y: 0, z: 0.15000004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0, y: -89.99998, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4248616321121772}
+  m_RootOrder: 2
+--- !u!114 &114899865898496199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1162995597195519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f108d2b0dc1347ce692cedb5c98a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnOnAwake: 1
+  spawnOnStart: 0
+  prefab: {fileID: 1854801205463091, guid: 86b3f5bb73abc004baf87e6c3b88ae1f, type: 2}
+--- !u!4 &4638606012645716
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1551933969540716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.050000012, y: 0, z: 0.15000004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4248616321121772}
+  m_RootOrder: 3
+--- !u!114 &114772620131593753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1551933969540716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f108d2b0dc1347ce692cedb5c98a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnOnAwake: 1
+  spawnOnStart: 0
+  prefab: {fileID: 1854801205463091, guid: 86b3f5bb73abc004baf87e6c3b88ae1f, type: 2}
+--- !u!4 &4776304429110773
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1909528210065267}
+  m_LocalRotation: {x: 0.14323588, y: 0.14323585, z: 0.69244725, w: 0.69244766}
+  m_LocalPosition: {x: -0.0029999912, y: -0.09899998, z: 0.10400003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 23.374115, y: -4.483523E-06, z: -89.99996}
+  m_Children: []
+  m_Father: {fileID: 4248616321121772}
+  m_RootOrder: 4
+--- !u!114 &114353652240490767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1909528210065267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f108d2b0dc1347ce692cedb5c98a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnOnAwake: 1
+  spawnOnStart: 0
+  prefab: {fileID: 1320817488614829, guid: 4f157453a46d1734bae46695b4aae73d, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1050382397477912}
+  m_IsPrefabParent: 1

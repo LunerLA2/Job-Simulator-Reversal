@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8200566783c245ac760b7180f7a130c, type: 3}
+  m_Name: ConvenienceStoreRecyclingData
+  m_EditorClassIdentifier:
+  recycleInfos:
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 1df23c16062f40c4fb554bb351386e9d, type: 2}
+    minimumQuantityToMaintainInScene: 4
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 1
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 414d4c7397f526e4db0b1906d5d6d2de, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1849152933998302, guid: 0f16405677642ae41acdac07d176a211, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: cheeseSpawn1
+      spawnType: 0
+    - uniqueObjectID: cheeseSpawn2
+      spawnType: 0
+    - uniqueObjectID: cheeseSpawn3
+      spawnType: 0
+    - uniqueObjectID: cheeseSpawn4
+      spawnType: 0
+    - uniqueObjectID: CounterDropRightLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 6310994b2872584469000a53371f5b15, type: 2}
+    minimumQuantityToMaintainInScene: 2
+    alwaysMaintainQuantity: 1
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages: []
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1562982857316055, guid: 7b090053801375c4b8c789a227dc3cef, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: coinSpawn
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 1567910419335f943b155bfcadc84812, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 73cff531ff1b11f44856aeba244a4906, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1567110540512997, guid: b99aa9dfdcd587541a6a221c9de33b23, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 2
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: d36a05ab7879111478e96d4830d8f3a3, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 1
+    maintainQuantityDuringTasks:
+    - {fileID: 11400000, guid: e89bf25652e4efc4a8619958e48d30f1, type: 2}
+    maintainQuantityDuringPages: []
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1137850210504415, guid: 0b76cee976cbf30499f1ad4f559fdc3d, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: newspaperSpawn1
+      spawnType: 0
+    - uniqueObjectID: newspaperSpawn4
+      spawnType: 0
+    - uniqueObjectID: newspaperSpawn2
+      spawnType: 0
+    - uniqueObjectID: newspaperSpawn3
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 38925551cf3ceae40be0f0a4b703508b, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 1
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 3a42b964997ccff4a9f209038e0651ea, type: 2}
+    - {fileID: 11400000, guid: d5baea26eb80559459d633af2e7ae8c4, type: 2}
+    - {fileID: 11400000, guid: 5e1e9b5380ad0f64080da67624162e8c, type: 2}
+    - {fileID: 11400000, guid: 13ee9b34834586a4caed79f57945723e, type: 2}
+    - {fileID: 11400000, guid: 73d9a5e43e04b8442aa012d25ddac21c, type: 2}
+    - {fileID: 11400000, guid: 020b52c4c92a508489fc7da6455837e0, type: 2}
+    - {fileID: 11400000, guid: 146ecd8ae203d8949954e9bf21b69641, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1958045465148746, guid: 68fa65dbae656f04b9f48e93f7cc0a34, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: f10bdcd0fc7c85a4582569d6eba0733e, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 1
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 73d9a5e43e04b8442aa012d25ddac21c, type: 2}
+    - {fileID: 11400000, guid: 020b52c4c92a508489fc7da6455837e0, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1118907787961777, guid: faacaed6a97ad7141a43171e0aaae0e5, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: b4ffc21ba23c88f43b20cbf1937601a1, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 1
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 760b23bbe901a514bb23a909ddc13c27, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1389813334501123, guid: cf421570057bf134f9ca9ae9f8cda172, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 0d628b11b4846664b9f297c1624b1b8e, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks:
+    - {fileID: 11400000, guid: 0f316f7049e57f54eae7162b763f4129, type: 2}
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: d3f6f9ccdaa0d614b9992d0a5c4ab180, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1787058882437959, guid: 0ac45dca1e103f64f8e3d42348e4e0e5, type: 2}
+    - {fileID: 1625222946637798, guid: df2ab454d11cf1c488e88d076e6f48a4, type: 2}
+    - {fileID: 1994586512346531, guid: 081b9ddbce87fce40b4240aaa253c92a, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: d914fdda49059f74ca4490de70340205, type: 2}
+    minimumQuantityToMaintainInScene: 2
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 06fe98a46176cae4ea3ca4201512ba4d, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1986148129276726, guid: 008af5b1e36021b4a8f0688d362fbe60, type: 2}
+    - {fileID: 1014495666713256, guid: 3ebe37d5a9fc84c49ba0e9be39958d6a, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: fd5eaae85435a104aa66c4be5ffd0f84, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 06e32432d68957e4d8476ce612beb8f6, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1747776233103410, guid: 8e7490db2dff70c49ba13d68f68978e8, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: fba1d62f511fa974e9d6984e8ea3631d, type: 2}
+    minimumQuantityToMaintainInScene: 2
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 06e32432d68957e4d8476ce612beb8f6, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1973239283700632, guid: c55e9fcb63ffbee4cb3c2cc604d47c20, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: b7532235c7480e04a89b39e84278798f, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 6b6444d1885045847a4714217a13079a, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1987402867179885, guid: e96e084c65d13074abd5521dba0233bd, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 30b95073e6887d64e8a8908b8316ea3a, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: c7bad0bdb702a8b458e373d4c7d90240, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1521496519627434, guid: 3121a9e55ae4b5849ad9c69431cefd72, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 09b03062510435c4aaf9418199810950, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 1
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages: []
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1108291747304516, guid: 45980d9550ef24e4db22aa23c53cb52c, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: FireworkPosition
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 4abd9b8632a33334e8f61aed003b7fca, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 2f19790ee8e85a542941a7a181be3bf1, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1857175654129360, guid: c2582b571f0fc1e40b00b16b98c15d03, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: c93dc565c018f1b4e9f0587c6f92da7a, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 2f19790ee8e85a542941a7a181be3bf1, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1883977311989155, guid: da274c9d1dd42be48a69de18566f8df3, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 5e9f8813ab36dd94ea0eb8d97c5b6bad, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 2f19790ee8e85a542941a7a181be3bf1, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1850021360781910, guid: f05382908da113649bc72f330cbac9ab, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 8d7b31ba4ff4ce6438d10e88a4231911, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks:
+    - {fileID: 11400000, guid: 6a7600701c8c8f24d8679a1a453a80d0, type: 2}
+    maintainQuantityDuringPages: []
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1264961058353544, guid: e14427580a8bed24ea263978ecf73c68, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocationHigh
+      spawnType: 2
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: aad7056d9a6f9e64c977f3520ab4b43a, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 1
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages: []
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1799130423732303, guid: 0700f61771f132849b2caa341d145022, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: FireworkPosition
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: b56bde80a38fc554f9da0e3905d8ec6a, type: 2}
+    minimumQuantityToMaintainInScene: 3
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 06e32432d68957e4d8476ce612beb8f6, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1459054479824779, guid: 04cfa00440c32c746a0e0edd8146ca30, type: 2}
+    - {fileID: 1803736612506294, guid: ebb69597f194a39478162b32135d7551, type: 2}
+    - {fileID: 1520419679917879, guid: 63e7b780b10cf0b45bf47724336b3cec, type: 2}
+    locationSelectionMode: 1
+    possibleSpawnLocations:
+    - uniqueObjectID: CounterLocation
+      spawnType: 0
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 5d1e5966e88cebd4297d9150b42b1fba, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 694edfb61ea17fc468d451da177b009c, type: 2}
+    - {fileID: 11400000, guid: 76c6c02b6b423ae47834d6e42ed9be81, type: 2}
+    - {fileID: 11400000, guid: 48b745ab771f87e429581c85bb9092ee, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1320817488614829, guid: 4f157453a46d1734bae46695b4aae73d, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations: []
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: a4278f8e669679e44a9f059f5299b0c8, type: 2}
+    minimumQuantityToMaintainInScene: 3
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 76c6c02b6b423ae47834d6e42ed9be81, type: 2}
+    - {fileID: 11400000, guid: 694edfb61ea17fc468d451da177b009c, type: 2}
+    - {fileID: 11400000, guid: 48b745ab771f87e429581c85bb9092ee, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1854801205463091, guid: 86b3f5bb73abc004baf87e6c3b88ae1f, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations: []
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 53b5b89cbcbff314aa3853bb68e5f9ff, type: 2}
+    minimumQuantityToMaintainInScene: 2
+    alwaysMaintainQuantity: 1
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages: []
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1893461005862858, guid: ba2827bb661d15c4d9aeaa502c502268, type: 2}
+    - {fileID: 1842492063839620, guid: 8a70f3b3b622af248a8bffe5b4bd9e25, type: 2}
+    - {fileID: 1672898904703440, guid: 14b0bdde6f0ffc446ade63f993c56e0c, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: GumRackRespawn1
+      spawnType: 1
+    - uniqueObjectID: GumRackRespawn2
+      spawnType: 1
+    - uniqueObjectID: GumRackRespawn3
+      spawnType: 1
+    - uniqueObjectID: GumRackRespawn4
+      spawnType: 1
+    - uniqueObjectID: GumRackRespawn5
+      spawnType: 1
+  fallbackRespawnLocationID: CounterLocationHigh

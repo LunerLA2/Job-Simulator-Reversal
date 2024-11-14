@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 22CookingTheBooks
+  m_EditorClassIdentifier:
+  textBody: With the new hires taken care of, you pull the next ticket. BOSS BOT floats over to your desk, and boy is he fuming. "Have you seen the latest sales report?" he asks, fear in his voice. "This isn't good! Load up the old spreadsheet program and fix these numbers!"\n\nYou load up the disc and find that revenue is questionably low, and spending on hot sauce and staples are through the roof!
+  options:
+  - Reduce spending on hot sauce and staples. Who even approved this?
+  - Fudge the numbers so revenue seems higher. What could go wrong?
+  results:
+  - The graph trends upward as you fix the company's financial issues. You hand BOSS BOT the new information after printing it. "Wow, you cooked those books likes a professional [GOURMET CHEF]!" he quips.
+  - The graph trends upward as you likely commit fraud. You hand BOSS BOT the new information after printing it. "Wow, you cooked those books likes a professional [GOURMET CHEF]!" he quips.
+  goToTaskOnComplete:
+  - 23
+  - 23
+  isStartOfNewTask: 1

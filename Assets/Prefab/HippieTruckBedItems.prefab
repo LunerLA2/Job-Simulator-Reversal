@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1943479908422979
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4907333756960252}
+  - 114: {fileID: 114453888661099458}
+  m_Layer: 0
+  m_Name: HippieTruckBedItems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1523506955093080
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4851994749650208}
+  - 114: {fileID: 114129335579663650}
+  m_Layer: 0
+  m_Name: FlowerPotTulip-PrefabSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1831405946093413
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4405581129995685}
+  - 114: {fileID: 114146425420146007}
+  m_Layer: 0
+  m_Name: FlowerPotTulip-PrefabSpawner (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1739207963261370
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4700673010147096}
+  - 114: {fileID: 114840459971794325}
+  m_Layer: 0
+  m_Name: FlowerPotTulip-PrefabSpawner (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1147692454270892
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4220830612621850}
+  - 114: {fileID: 114358641921525718}
+  m_Layer: 0
+  m_Name: FlowerPot-PrefabSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1991294662496069
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4188078857013470}
+  - 114: {fileID: 114000401148868019}
+  m_Layer: 0
+  m_Name: FlowerPot-PrefabSpawner (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4907333756960252
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1943479908422979}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.6292068E-07}
+  m_LocalPosition: {x: -2.216, y: 0.40849996, z: 3.1552002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 1.8669336E-05, z: 180}
+  m_Children:
+  - {fileID: 4851994749650208}
+  - {fileID: 4405581129995685}
+  - {fileID: 4700673010147096}
+  - {fileID: 4220830612621850}
+  - {fileID: 4188078857013470}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114453888661099458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1943479908422979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a91814c452b1ff49292b214ec7c145, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  trackedAttachPoints: []
+  optimizableTransforms: []
+--- !u!4 &4851994749650208
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1523506955093080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.548, y: -0.139, z: 0.58}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4907333756960252}
+  m_RootOrder: 0
+--- !u!114 &114129335579663650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1523506955093080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f108d2b0dc1347ce692cedb5c98a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnOnAwake: 1
+  spawnOnStart: 0
+  prefab: {fileID: 1380736834244497, guid: 43b4142e980b0444b98658d699bc78c1, type: 2}
+--- !u!4 &4405581129995685
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1831405946093413}
+  m_LocalRotation: {x: 0, y: -0.32174972, z: 0, w: 0.9468248}
+  m_LocalPosition: {x: -0.458, y: -0.139, z: 0.377}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 37.537548, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4907333756960252}
+  m_RootOrder: 1
+--- !u!114 &114146425420146007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1831405946093413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f108d2b0dc1347ce692cedb5c98a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnOnAwake: 1
+  spawnOnStart: 0
+  prefab: {fileID: 1380736834244497, guid: 43b4142e980b0444b98658d699bc78c1, type: 2}
+--- !u!4 &4700673010147096
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1739207963261370}
+  m_LocalRotation: {x: 0, y: 0.82061154, z: 0, w: 0.5714865}
+  m_LocalPosition: {x: -0.186, y: -0.139, z: 0.284}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: -69.70789, z: -180}
+  m_Children: []
+  m_Father: {fileID: 4907333756960252}
+  m_RootOrder: 2
+--- !u!114 &114840459971794325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1739207963261370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f108d2b0dc1347ce692cedb5c98a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnOnAwake: 1
+  spawnOnStart: 0
+  prefab: {fileID: 1380736834244497, guid: 43b4142e980b0444b98658d699bc78c1, type: 2}
+--- !u!4 &4220830612621850
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1147692454270892}
+  m_LocalRotation: {x: 0, y: -0.90468276, z: 0, w: 0.42608586}
+  m_LocalPosition: {x: -0.562, y: -0.21, z: 0.193}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 50.438824, z: 180}
+  m_Children: []
+  m_Father: {fileID: 4907333756960252}
+  m_RootOrder: 3
+--- !u!114 &114358641921525718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1147692454270892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f108d2b0dc1347ce692cedb5c98a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnOnAwake: 1
+  spawnOnStart: 0
+  prefab: {fileID: 1834577088315022, guid: 98f8111b93cbed745ac624a4e4ca5fd9, type: 2}
+--- !u!4 &4188078857013470
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1991294662496069}
+  m_LocalRotation: {x: 0, y: -0.76890045, z: 0, w: -0.6393685}
+  m_LocalPosition: {x: -0.22, y: -0.21, z: 0.558}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -180, y: -79.489494, z: 180}
+  m_Children: []
+  m_Father: {fileID: 4907333756960252}
+  m_RootOrder: 4
+--- !u!114 &114000401148868019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1991294662496069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f108d2b0dc1347ce692cedb5c98a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnOnAwake: 1
+  spawnOnStart: 0
+  prefab: {fileID: 1834577088315022, guid: 98f8111b93cbed745ac624a4e4ca5fd9, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1943479908422979}
+  m_IsPrefabParent: 1

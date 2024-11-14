@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1084196665869620
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4605009841772092}
+  - 114: {fileID: 114370383375705853}
+  - 114: {fileID: 114822567266487959}
+  m_Layer: 0
+  m_Name: VehicleWorst
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4605009841772092
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1084196665869620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.81522834, y: -0.00044858456, z: 2.7336001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114370383375705853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1084196665869620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114822567266487959}
+--- !u!114 &114822567266487959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1084196665869620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ccb162d0a76c221a02eefe6244503c6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  masterVehiclePrefab: {fileID: 114751523307427343, guid: 07b87b725892fd24fb662978212ee60c, type: 2}
+  chassisPrefab: {fileID: 114610217874595603, guid: 8a3d872bb6365af4b9348fb13a6187ca, type: 2}
+  chassisPrefabPSVR: {fileID: 0}
+  defaultColor: {r: 0.7941176, g: 0.5523386, b: 0.3328287, a: 1}
+  baseCarTexture: {fileID: 2800000, guid: dc49301dd458e5f4e92c97f0c68d9a0b, type: 3}
+  detailCarTexture: {fileID: 2800000, guid: f7b6d6635989e8e46a67ac2b113eb80b, type: 3}
+  hideDetailTextureOncePainted: 0
+  swapDetailTextureOncePainted: 0
+  detailCarTextureOnPaint: {fileID: 0}
+  interiorPrefab: {fileID: 1365918289638321, guid: 6dd6c2641144d1b48a8e49d21423f55f, type: 2}
+  psvrInteriorPrefab: {fileID: 0}
+  enginePrefab: {fileID: 1023469207272831, guid: 4260f41d7f8220c448adb70d208d5503, type: 2}
+  vehicleWorldItemData: {fileID: 11400000, guid: 3bf511ee3fa6b664da83859702ab8226, type: 2}
+  customHoodData: {fileID: 11400000, guid: 7858e09e5b342be4d9d6029d56305cbd, type: 2}
+  customDoorData: {fileID: 11400000, guid: cb7d6d3b836379c4e93f67717d6e5f1a, type: 2}
+  customTrunkData: {fileID: 11400000, guid: 2ac6f27990cee9a4b92b5b2738a41318, type: 2}
+  interiorTrinketMountData: {fileID: 0}
+  wheelPrefabs:
+  - {fileID: 1298814359249848, guid: 1dfc3e6160aba1646b290d4afd8ffe2c, type: 2}
+  wheelIndexesThatStartDeflated: []
+  headlightPrefab: {fileID: 1936056777352871, guid: 9e3f7071b041119418054c09193a0050, type: 2}
+  licensePlatePrefab: {fileID: 1852712048486482, guid: d820b702e85fc99488f82d38dc288380, type: 2}
+  gasTankPrefab: {fileID: 1683335866465723, guid: 4e170f0d4fc33c644aa99f7a1896acd4, type: 2}
+  hoodOrnamentPrefab: {fileID: 0}
+  driverSeatUniqueObjectName: DriverSeat_Worst
+  optionalDriveInSound: {fileID: 0}
+  optionalDriveOutSound: {fileID: 0}
+  isFilterDirty: 0
+  setFluidColor: 0
+  initialFluid: {fileID: 0}
+  initialFluidPercentFull: 0
+  defaultTrinketObjects: []
+  extraHardware:
+  - hardwarePrefab: {fileID: 114529300620270510, guid: a52879a6313c06a4bac0e8d3b0d0bb95, type: 2}
+    mountPoint: 0
+  - hardwarePrefab: {fileID: 114559847607609887, guid: dd12e4ffd8c1da947b3d2ed41fca79bf, type: 2}
+    mountPoint: 0
+  extraHardwarePSVROnly: []
+  extraHardwaveNonPSVROnly: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1084196665869620}
+  m_IsPrefabParent: 1

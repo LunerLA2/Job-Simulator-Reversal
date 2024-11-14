@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1724913964626750
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4075475099077748}
+  - 114: {fileID: 114429765503412458}
+  - 114: {fileID: 114588711401769039}
+  m_Layer: 0
+  m_Name: Wheel_Basic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4075475099077748
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1724913964626750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114429765503412458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1724913964626750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114588711401769039}
+--- !u!114 &114588711401769039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1724913964626750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa18b32cbbc911bf1836d21386b8acc, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefab: {fileID: 114644582105895807, guid: 6c31afdae0ec76145be4556af47ff195, type: 2}
+  worldItemData: {fileID: 11400000, guid: d75b40c972079d0468848652d3e302b3, type: 2}
+  usesInflation: 1
+  tireMesh: {fileID: 4300000, guid: c0d18b6a07425fd4280a0f4f16feb8bc, type: 2}
+  tireMaterial: {fileID: 2100000, guid: e7437c75810a8d947b8682b6eb76e382, type: 2}
+  hubcapMaterial: {fileID: 2100000, guid: e7437c75810a8d947b8682b6eb76e382, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1724913964626750}
+  m_IsPrefabParent: 1

@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1081566849343524
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4259397595339175}
+  m_Layer: 0
+  m_Name: BanditBotBanana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1020381364242783
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4649936944089044}
+  - 114: {fileID: 114372329978719855}
+  - 135: {fileID: 135865833942569287}
+  - 114: {fileID: 114367972599114104}
+  m_Layer: 18
+  m_Name: BananaAttach
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1233604665432016
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4904744077619995}
+  - 33: {fileID: 33949971699360305}
+  - 23: {fileID: 23886126303588316}
+  m_Layer: 0
+  m_Name: Banana_Whole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4259397595339175
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081566849343524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4649936944089044}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &4649936944089044
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020381364242783}
+  m_LocalRotation: {x: -0.9995882, y: -2.99343E-09, z: -0.028697988, w: -1.04265176E-07}
+  m_LocalPosition: {x: 0.286, y: -0.087, z: 0.233}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 179.99998, y: 3.2889986, z: -6.868928E-07}
+  m_Children:
+  - {fileID: 4904744077619995}
+  m_Father: {fileID: 4259397595339175}
+  m_RootOrder: 0
+--- !u!114 &114372329978719855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020381364242783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0806055ef678fa5271c28efbf7768068, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  inRangeTrigger: {fileID: 114367972599114104}
+  data: {fileID: 11400000, guid: 6caaa127fee2162478b5b79e59032f5d, type: 2}
+  detachDistance: 0
+  detachMovementRatio: 1
+  omniDirectionDetach: 0
+  retainDistanceOnAttach: 0
+  highlight:
+  - {fileID: 23886126303588316}
+  particleOnAttach: {fileID: 0}
+  particleOnDetach: {fileID: 0}
+  pickupableItem: {fileID: 0}
+  optionalAutoConnectArea: {fileID: 0}
+  onlyAllowDetachWhenCurrInHand: 0
+  refill: 1
+  delayBeforeRefilling: 3
+  refillPrefabs:
+  - {fileID: 1567110540512997, guid: b99aa9dfdcd587541a6a221c9de33b23, type: 2}
+  initialCapacity: 1
+  refillSelectionMethod: 0
+  refillDuration: 0.25
+  growRefillingObject: 1
+  refillWhenObjectReleasedFromHand: 0
+  durationDroppedBeforeRefilled: 5
+  ignoreInRangesWhenFull: 0
+  dontConsiderInRangeWhenDetached: 0
+  snapInstantlyTrigger: {fileID: 0}
+--- !u!135 &135865833942569287
+SphereCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020381364242783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114367972599114104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020381364242783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb0f29c5afeea56ea5d08227322d2ac2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ignoreTriggers: 0
+  ignoreEventsWhenDisabled: 0
+--- !u!4 &4904744077619995
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233604665432016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0024000374, y: 0.097400054, z: 0.110100105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4649936944089044}
+  m_RootOrder: 0
+--- !u!33 &33949971699360305
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233604665432016}
+  m_Mesh: {fileID: 4300000, guid: 79ed3eb1eaac7c84fb783eb9314f3c3b, type: 2}
+--- !u!23 &23886126303588316
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233604665432016}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: db46c3f1677736145980239f203fbee4, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1081566849343524}
+  m_IsPrefabParent: 1

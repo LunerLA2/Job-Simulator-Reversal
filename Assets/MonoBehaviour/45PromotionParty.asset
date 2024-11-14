@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 45PromotionParty
+  m_EditorClassIdentifier:
+  textBody: 'Hoping the heat doesn''t come back around your way, you pull another card to get back to work. Another bot strolls by your desk and faces you. "Hello Human!" the bot says, cheerfully. "I am CEO BOT! Here''s the thing: BOSS BOT needs to go away for awhile, and you''ve been doing a really [GOOD] job! So I''d like to offer you a promotion!" A group of your coworkers gather round cacophonously singing ''Happy [PROMOTION] to you'' as they wheel in a large cake. "Now make a wish and blow out the candles!"'
+  options:
+  - Blow out the candles.
+  results:
+  - You blow out the candles with gusto, and everyone takes a slice of cake. "Sorry human," says one coworker sympathetically. "Looks like there's not enough cake for you."
+  goToTaskOnComplete:
+  - 46
+  isStartOfNewTask: 1

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1878973444759304
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4630449568562908}
+  - 114: {fileID: 114311221142845670}
+  - 114: {fileID: 114952287784568458}
+  m_Layer: 0
+  m_Name: VehicleMarried
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4630449568562908
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1878973444759304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3042882, y: -0.0013265256, z: 1.5100774}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114311221142845670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1878973444759304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114952287784568458}
+--- !u!114 &114952287784568458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1878973444759304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ccb162d0a76c221a02eefe6244503c6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  masterVehiclePrefab: {fileID: 114751523307427343, guid: 07b87b725892fd24fb662978212ee60c, type: 2}
+  chassisPrefab: {fileID: 114267188670255325, guid: 71960b89559e2db4194e1a5ca197c4b9, type: 2}
+  chassisPrefabPSVR: {fileID: 114089897085188523, guid: 7e2cb194c0282974ab6cb79ee3381e8c, type: 2}
+  defaultColor: {r: 0.9044118, g: 0.41895548, b: 0.6097901, a: 1}
+  baseCarTexture: {fileID: 2800000, guid: e859354550c31284183e0e5e750a3004, type: 3}
+  detailCarTexture: {fileID: 2800000, guid: 421537ba37ebd0741b318416c92971e9, type: 3}
+  hideDetailTextureOncePainted: 0
+  swapDetailTextureOncePainted: 0
+  detailCarTextureOnPaint: {fileID: 0}
+  interiorPrefab: {fileID: 1365918289638321, guid: 6dd6c2641144d1b48a8e49d21423f55f, type: 2}
+  psvrInteriorPrefab: {fileID: 0}
+  enginePrefab: {fileID: 1445523199464053, guid: e6aeac6b35c8fe642a8fb80618dd2a1d, type: 2}
+  vehicleWorldItemData: {fileID: 11400000, guid: 306ecf7112bf8964b84425d226e532ee, type: 2}
+  customHoodData: {fileID: 11400000, guid: 7aa6e18abbb8a8d43b4059eb379371fe, type: 2}
+  customDoorData: {fileID: 11400000, guid: 20820b7271ccfd341b79c339447e2c5e, type: 2}
+  customTrunkData: {fileID: 11400000, guid: 9471de5296f46d34a84cba4b246811d5, type: 2}
+  interiorTrinketMountData: {fileID: 0}
+  wheelPrefabs:
+  - {fileID: 1724913964626750, guid: f5e7ecf2cd5557b449876b9c779a03a6, type: 2}
+  wheelIndexesThatStartDeflated: []
+  headlightPrefab: {fileID: 1936056777352871, guid: 9e3f7071b041119418054c09193a0050, type: 2}
+  licensePlatePrefab: {fileID: 1349323537831579, guid: 21c500080efc3e244bc552f855467502, type: 2}
+  gasTankPrefab: {fileID: 1549060570648787, guid: c0def1f06a37e7d4cadef78e3852acc0, type: 2}
+  hoodOrnamentPrefab: {fileID: 0}
+  driverSeatUniqueObjectName: DriverSeat_Married
+  optionalDriveInSound: {fileID: 0}
+  optionalDriveOutSound: {fileID: 0}
+  isFilterDirty: 0
+  setFluidColor: 0
+  initialFluid: {fileID: 0}
+  initialFluidPercentFull: 0
+  defaultTrinketObjects: []
+  extraHardware:
+  - hardwarePrefab: {fileID: 114324246127427827, guid: a1e916aa9de1ae140b7d42ea7f770b08, type: 2}
+    mountPoint: 0
+  - hardwarePrefab: {fileID: 114201862432546391, guid: dd649fe9c7d4bc84da5a52470c40a88c, type: 2}
+    mountPoint: 0
+  - hardwarePrefab: {fileID: 114156944254390368, guid: a4fe10df3c653954e90450ff5cde202a, type: 2}
+    mountPoint: 8
+  extraHardwarePSVROnly:
+  - hardwarePrefab: {fileID: 114157368942435908, guid: b4517bd90efd8ca4e83f2267ddb4fe06, type: 2}
+    mountPoint: 0
+  extraHardwaveNonPSVROnly:
+  - hardwarePrefab: {fileID: 114696703735882771, guid: 8d1de3e5fc2e2a645a5627df1896711e, type: 2}
+    mountPoint: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1878973444759304}
+  m_IsPrefabParent: 1

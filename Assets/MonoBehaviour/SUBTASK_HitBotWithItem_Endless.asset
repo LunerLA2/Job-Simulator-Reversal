@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302042b27749c0e3372547227a137bf0, type: 3}
+  m_Name: SUBTASK_HitBotWithItem_Endless
+  m_EditorClassIdentifier:
+  subtaskIconLayoutType: 0
+  actionEventConditions:
+  - actionEventData: {fileID: 11400000, guid: f7b75ea43ac641b4e96081af13917dda, type: 2}
+    worldItemData1: {fileID: 11400000, guid: c2f730f8115e2c649938cc1e1be6df2b, type: 2}
+    worldItemData2: {fileID: 0}
+    amount: 0
+    isPositive: 1
+  - actionEventData: {fileID: 11400000, guid: f7b75ea43ac641b4e96081af13917dda, type: 2}
+    worldItemData1: {fileID: 11400000, guid: e42d34e4fbe6f9b45a64bba60862a84a, type: 2}
+    worldItemData2: {fileID: 0}
+    amount: 0
+    isPositive: 1
+  - actionEventData: {fileID: 11400000, guid: f7b75ea43ac641b4e96081af13917dda, type: 2}
+    worldItemData1: {fileID: 11400000, guid: f9833efa1cf5b2245a5f0c150f322279, type: 2}
+    worldItemData2: {fileID: 0}
+    amount: 0
+    isPositive: 1
+  layoutDependantSpriteOne: {fileID: 21300000, guid: 4a5699f3cce0d584e96b89f649423c05, type: 2}
+  layoutDependantSpriteTwo: {fileID: 21300000, guid: 60ba7652c0f7170458ab855eac5c899c, type: 2}
+  layoutDependantSpriteThree: {fileID: 0}
+  layoutDependantSpriteFour: {fileID: 0}
+  layoutDependantSpriteFive: {fileID: 0}
+  counterSize: 3
+  hideCounterOnJobBoard: 0
+  onlyTrackProgressWhenVisible: 0
+  subtasksToAutoComplete: []
+  disallowUncompleteOnAutoCompletedSubtasks: 0

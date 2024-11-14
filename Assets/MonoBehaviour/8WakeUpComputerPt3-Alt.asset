@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 8WakeUpComputerPt3-Alt
+  m_EditorClassIdentifier:
+  textBody: As your computer loads the desktop, your notice the phone -- a classic, gray, wired handset -- begins to ring. Much like your keyboard it has only a 1 and 0 button. You pick it up. "Hello, can you connect me to line 1 please?"
+  options:
+  - Hit 0.
+  - Hit 1.
+  - Hang up.
+  - Throw the phone.
+  results:
+  - '"Should I just call back later, or...?" asks the voice. You hang up. No longer your problem.'
+  - '"Thank you very much," says the bored voice on the phone. You hang up.'
+  - You hang up the phone. If it was important, they'll call back. Probably.
+  - '"Hey, that was a pretty nice throw!" shouts a bot in the adjacent cubicle. Your phone inexplicably re-appears in its cradle.'
+  goToTaskOnComplete:
+  - 9
+  - 9
+  - 9
+  - 9
+  isStartOfNewTask: 0

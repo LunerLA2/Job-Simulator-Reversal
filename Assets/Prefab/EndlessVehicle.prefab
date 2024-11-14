@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1628199454853754
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4429587521770802}
+  - 114: {fileID: 114124392544228214}
+  - 114: {fileID: 114473697840314581}
+  m_Layer: 0
+  m_Name: EndlessVehicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4429587521770802
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1628199454853754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.05167657, y: 0.56423604, z: 0.99958384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114124392544228214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1628199454853754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114473697840314581}
+--- !u!114 &114473697840314581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1628199454853754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9a7868015b24015e08220afa6934d7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  masterVehiclePrefab: {fileID: 114751523307427343, guid: 07b87b725892fd24fb662978212ee60c, type: 2}
+  chassisOptions:
+  - chassisPrefab: {fileID: 114215762303044108, guid: 9fafc0434ab354542b44c989e9c621a4, type: 2}
+    chassisPrefabPSVR: {fileID: 0}
+    carTextures:
+    - baseTexture: {fileID: 2800000, guid: e859354550c31284183e0e5e750a3004, type: 3}
+      detailTexture: {fileID: 2800000, guid: 421537ba37ebd0741b318416c92971e9, type: 3}
+      hideDetailTextureOncePainted: 0
+      swapDetailTextureOncePainted: 0
+      detailTextureOnPaint: {fileID: 0}
+    interiors:
+    - interiorPrefab: {fileID: 1686696591743846, guid: 6bd0e50ee3c6eaf4ea1b68580c5778ed, type: 2}
+      psvrInteriorPrefab: {fileID: 0}
+    gasTankPrefabs:
+    - {fileID: 1549060570648787, guid: c0def1f06a37e7d4cadef78e3852acc0, type: 2}
+    initialHeadlightPrefabs:
+    - {fileID: 1591651860319802, guid: 85648467921be5944b1985fbf7c9c958, type: 2}
+    - {fileID: 1936056777352871, guid: 9e3f7071b041119418054c09193a0050, type: 2}
+    - {fileID: 1378733543573036, guid: f7beeea2a732f9547a4726ea5fd2b201, type: 2}
+  - chassisPrefab: {fileID: 114852291606055436, guid: 213d3d6c2e8e3a24d873a274504a249f, type: 2}
+    chassisPrefabPSVR: {fileID: 0}
+    carTextures:
+    - baseTexture: {fileID: 2800000, guid: b5d22a6a3fcb4eb478c583a161a70951, type: 3}
+      detailTexture: {fileID: 2800000, guid: 37645d9c0e9897043b50f128cf799c11, type: 3}
+      hideDetailTextureOncePainted: 0
+      swapDetailTextureOncePainted: 0
+      detailTextureOnPaint: {fileID: 0}
+    interiors:
+    - interiorPrefab: {fileID: 1686696591743846, guid: 6bd0e50ee3c6eaf4ea1b68580c5778ed, type: 2}
+      psvrInteriorPrefab: {fileID: 0}
+    gasTankPrefabs:
+    - {fileID: 1578943838098800, guid: e70a079271392fd488b3da41dbdc738e, type: 2}
+    initialHeadlightPrefabs:
+    - {fileID: 1591651860319802, guid: 85648467921be5944b1985fbf7c9c958, type: 2}
+    - {fileID: 1936056777352871, guid: 9e3f7071b041119418054c09193a0050, type: 2}
+    - {fileID: 1378733543573036, guid: f7beeea2a732f9547a4726ea5fd2b201, type: 2}
+  - chassisPrefab: {fileID: 114072095615395924, guid: 71286596bb4711340a66b3fe37c8f98f, type: 2}
+    chassisPrefabPSVR: {fileID: 0}
+    carTextures:
+    - baseTexture: {fileID: 2800000, guid: dc49301dd458e5f4e92c97f0c68d9a0b, type: 3}
+      detailTexture: {fileID: 2800000, guid: f7b6d6635989e8e46a67ac2b113eb80b, type: 3}
+      hideDetailTextureOncePainted: 0
+      swapDetailTextureOncePainted: 0
+      detailTextureOnPaint: {fileID: 0}
+    interiors:
+    - interiorPrefab: {fileID: 1686696591743846, guid: 6bd0e50ee3c6eaf4ea1b68580c5778ed, type: 2}
+      psvrInteriorPrefab: {fileID: 0}
+    gasTankPrefabs:
+    - {fileID: 1683335866465723, guid: 4e170f0d4fc33c644aa99f7a1896acd4, type: 2}
+    initialHeadlightPrefabs:
+    - {fileID: 1591651860319802, guid: 85648467921be5944b1985fbf7c9c958, type: 2}
+    - {fileID: 1936056777352871, guid: 9e3f7071b041119418054c09193a0050, type: 2}
+    - {fileID: 1378733543573036, guid: f7beeea2a732f9547a4726ea5fd2b201, type: 2}
+  enginePrefab: {fileID: 114983608718491913, guid: e344c83ec3b7f004c89453355a458f2e, type: 2}
+  vehicleWorldItemData: {fileID: 11400000, guid: b21bfa26bcb2067428075f92364567ae, type: 2}
+  customHoodData: {fileID: 11400000, guid: d3c9fedf22cbb264fb66eccbf63bf425, type: 2}
+  customDoorData: {fileID: 11400000, guid: 39fd29c05f834f742bf5ae1d03ea3198, type: 2}
+  customTrunkData: {fileID: 11400000, guid: 1e011442e4d74704c9511127aafb3246, type: 2}
+  interiorTrinketMountData: {fileID: 11400000, guid: ad861fc0e47bc1b41818c2ae22a93203, type: 2}
+  wheelOptions:
+  - {fileID: 1341540119156650, guid: a935ccfcad19fdb47a9b434f11498e77, type: 2}
+  - {fileID: 1724913964626750, guid: f5e7ecf2cd5557b449876b9c779a03a6, type: 2}
+  - {fileID: 1803533654554945, guid: 5b9db52c40bf68c40af380d56fd65fde, type: 2}
+  - {fileID: 1908523366133438, guid: 936d870ba20e2cd409a975e50b5dffd9, type: 2}
+  - {fileID: 1454565588929928, guid: 5a3ba73fa79b8ff4681e7fd4af7c68dc, type: 2}
+  - {fileID: 1277896034798906, guid: 3759ef64c31b1ef478e6e76f0ab9e0ff, type: 2}
+  - {fileID: 1766272163763447, guid: 0b34c6e2147085e4e8a763eff57c4567, type: 2}
+  - {fileID: 1805324208326104, guid: 694c65406fe54e54698a702ec828780e, type: 2}
+  wheelIndexesThatStartDeflated: []
+  licensePlatePrefabs:
+  - {fileID: 1666360311204794, guid: c4ae444b3379d1549b23a62b4b5d9cb2, type: 2}
+  - {fileID: 1845143844911388, guid: 12aab613a5e91a844a1c012d44038a8f, type: 2}
+  - {fileID: 1503080525833568, guid: a8d08c87ed33d80449b10b371a986a62, type: 2}
+  - {fileID: 1368746073622483, guid: 6d7282f6d9738a84ab818675e8cfa7ad, type: 2}
+  - {fileID: 1349323537831579, guid: 21c500080efc3e244bc552f855467502, type: 2}
+  - {fileID: 1852712048486482, guid: d820b702e85fc99488f82d38dc288380, type: 2}
+  - {fileID: 1903254822453808, guid: 0cb6681a073d5fc44b7c9fc8acd2c1d7, type: 2}
+  - {fileID: 1125468227827620, guid: 4cf4aa6cfa4ed5f4eb067e232679d66f, type: 2}
+  - {fileID: 1503882282876865, guid: 4ab5929701882fd4a8ac6af374b14c15, type: 2}
+  - {fileID: 1712419219480971, guid: 1991833045078ff45b48046ac8b88558, type: 2}
+  hoodOrnamentPrefabs: []
+  driverSeatUniqueObjectName: EndlessVehicleDriverSeat
+  optionalDriveInSounds:
+  - {fileID: 8300000, guid: 0795f734bb178aa40ab910f146ae4244, type: 3}
+  - {fileID: 8300000, guid: 440dee9184c7b61439a79f18f30422d5, type: 3}
+  - {fileID: 8300000, guid: f7acc344eb750664395af0e0b03e88ee, type: 3}
+  - {fileID: 8300000, guid: 136d8398f4b296d4fa7373093420e79d, type: 3}
+  - {fileID: 8300000, guid: 8a94515342edf274aa7dd4dea110871e, type: 3}
+  - {fileID: 8300000, guid: e6d2cef8ca06e46458b4b9fc2478bea0, type: 3}
+  - {fileID: 8300000, guid: f9f2dd5e76259ae4c96fdcf81c056a14, type: 3}
+  optionalDriveOutSounds:
+  - {fileID: 8300000, guid: 80f7beb8f2f75a041b7d7b3c917a207f, type: 3}
+  - {fileID: 8300000, guid: fe7dc91c2b485e149aabb869d6cb8bcc, type: 3}
+  - {fileID: 8300000, guid: b14f3a50b8a483d4780f821b213d0052, type: 3}
+  - {fileID: 8300000, guid: f6e3b2bcf0240c84fb6a821183a0a6dd, type: 3}
+  - {fileID: 8300000, guid: 688fdc72e6e773742b40f0a50978ecb5, type: 3}
+  - {fileID: 8300000, guid: fd71b2521c2b0d342b6c8a20567cfda2, type: 3}
+  isFilterDirty: 0
+  setFluidColor: 0
+  initialFluid: {fileID: 0}
+  initialFluidPercentFull: 0.75
+  defaultTrinketObjects: []
+  extraHardware: []
+  extraHardwarePSVROnly: []
+  extraHardwaveNonPSVROnly: []
+  sketchyPlatesPages:
+  - {fileID: 11400000, guid: 9c33180bd5ceb2d47ba0ef780f2401b7, type: 2}
+  sketchyPlatePrefabs:
+  - {fileID: 1959715034778399, guid: 05de7ab7e95c43e498ea905240c7ce66, type: 2}
+  brokenTiresPages:
+  - {fileID: 11400000, guid: 09049f13a9cddc34ab0c847dabe26a1e, type: 2}
+  brokenTirePrefabs:
+  - {fileID: 1298814359249848, guid: 1dfc3e6160aba1646b290d4afd8ffe2c, type: 2}
+  brokenHeadlightsPages:
+  - {fileID: 11400000, guid: 5ba822a3712dec34eaa15c5bf692a93d, type: 2}
+  brokenHeadlightPrefabs:
+  - {fileID: 1931937217539892, guid: 8e8989eec2def7e42b63dc5710d3db78, type: 2}
+  badAirFilterPages:
+  - {fileID: 11400000, guid: e04a62e16ff437846880eabb2f4e5ad7, type: 2}
+  badBatteryPages:
+  - {fileID: 11400000, guid: 0de63532511ada94e94470ed0158efb4, type: 2}
+  brokenPistonsPages:
+  - {fileID: 11400000, guid: 696956953077cac41b7f416ae748e3e0, type: 2}
+  noPistonsPages:
+  - {fileID: 11400000, guid: 143279d4e41143045b984c4c6def0829, type: 2}
+  engineOilFluidPages: []
+  engineOverheatPages:
+  - {fileID: 11400000, guid: 6b19ea18f2d2c6b46af533248e3e7c65, type: 2}
+  overheatPrefab:
+    hardwarePrefab: {fileID: 114583744247812948, guid: 17f2c669f33bde84a9c402811af7bc49, type: 2}
+    mountPoint: 0
+  engine: {fileID: 0}
+  enginePFX: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1628199454853754}
+  m_IsPrefabParent: 1

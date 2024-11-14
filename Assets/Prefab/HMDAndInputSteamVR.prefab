@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1475394876515693
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4992658918285516}
+  - 114: {fileID: 114615210258657927}
+  - 114: {fileID: 114269159096570138}
+  - 114: {fileID: 114576655259170442}
+  m_Layer: 0
+  m_Name: HMDAndInputSteamVR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1081168733003984
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4877589742321074}
+  - 20: {fileID: 20359111511366406}
+  - 81: {fileID: 81124830757110447}
+  - 92: {fileID: 92509537077727328}
+  - 124: {fileID: 124707259748282760}
+  - 114: {fileID: 114279497383798357}
+  - 114: {fileID: 114112729451086875}
+  - 114: {fileID: 114225279509409197}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4992658918285516
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475394876515693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4877589742321074}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114615210258657927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475394876515693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a7077956561fa0af393484a43a2f0f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  camTransform: {fileID: 4877589742321074}
+  headPrefab: {fileID: 1540214228365951, guid: 60cadf7129637254cb8f57c2a1811af9, type: 2}
+  controllerPrefab: {fileID: 1547007344004222, guid: 183588c30f4d0c54e9db2f8de023a418, type: 2}
+  controllerPrefabOld: {fileID: 1987211267410585, guid: c1abb9d88ff6c9f458e9edbc6cfd8ac7, type: 2}
+  controllerPrefabOculus: {fileID: 1993194981662079, guid: cf97ea92b87f085418b843351ff5e60e, type: 2}
+  controllerPrefabWindows: {fileID: 1488143372868983, guid: 849b3f055cc4b3f4dad3dba5b505cf43, type: 2}
+  controllerPrefabSteamVRCompatible: {fileID: 1047293202043515, guid: ce715b7986ce93648b498d8394d6f91f, type: 2}
+--- !u!114 &114269159096570138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475394876515693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4c899d2d73ab6985e1ce272889bd42, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114576655259170442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475394876515693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 809261f2e46289b0f435b52696147ce4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!4 &4877589742321074
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081168733003984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4992658918285516}
+  m_RootOrder: 0
+--- !u!20 &20359111511366406
+Camera:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081168733003984}
+  m_Enabled: 1
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 1}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 2625601535
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!81 &81124830757110447
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081168733003984}
+  m_Enabled: 1
+--- !u!92 &92509537077727328
+GUILayer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081168733003984}
+  m_Enabled: 1
+--- !u!124 &124707259748282760
+FlareLayer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081168733003984}
+  m_Enabled: 1
+--- !u!114 &114279497383798357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081168733003984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc378fd5d3ce5bb0285fd78d6eddec4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114112729451086875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081168733003984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff3ff0615018e2390611cf8599cbaeb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114225279509409197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081168733003984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a09a6c89344105ac3ab811d66e04d1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _head: {fileID: 0}
+  _ears: {fileID: 0}
+  wireframe: 0
+  flip: {fileID: 114279497383798357}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1475394876515693}
+  m_IsPrefabParent: 1

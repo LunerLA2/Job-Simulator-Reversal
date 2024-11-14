@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57c3aa35217ffc706d2d6a721af6a2a, type: 3}
+  m_Name: JOB_PSVRCalibration
+  m_EditorClassIdentifier:
+  brainGroup: {fileID: 11400000, guid: 1dbf0467a469cf64ab23ae539c90f7e9, type: 2}
+  brainGroupPSVROverride: {fileID: 0}
+  secsOfBlankBeforeStartingJob: 0
+  secsOfBlankAfterCompletingJob: 0
+  promptTextBetweenTasks: Pull trigger to begin job!
+  subtaskToAdvanceBetweenTasks: {fileID: 0}
+  countsAsGameProgression: 0
+  tasks:
+  - {fileID: 11400000, guid: 9d8fed6621b3d424cbb00a9209eba2cd, type: 2}
+  - {fileID: 11400000, guid: 65b2724f6b89b3945ab0521d8ceb80f7, type: 2}
+  - {fileID: 11400000, guid: f2b08ff10982d064b83fc7a2c2c558e0, type: 2}
+  - {fileID: 11400000, guid: 22fa6e5ad97d85d468a7b6a0f70c2794, type: 2}
+  - {fileID: 11400000, guid: fac8456703318ea49a0ff2a5243c0e0e, type: 2}

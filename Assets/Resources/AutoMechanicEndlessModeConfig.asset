@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29dacc7cad8b3835dbd4ec2cd263ec09, type: 3}
+  m_Name: AutoMechanicEndlessModeConfig
+  m_EditorClassIdentifier:
+  brainGroup: {fileID: 11400000, guid: 9c974ceed8ea3d943abf48f14496ba4c, type: 2}
+  brainGroupPSVROverride: {fileID: 0}
+  promptTextBetweenTasks: Pull chain to start!
+  subtaskToAdvanceBetweenTasks: {fileID: 11400000, guid: e4fdfa0b30f94754cb74f7f87ea8957b, type: 2}
+  secsOfBlankBeforeStarting: 9
+  secsOfBlankAfterCompleting: 0
+  secsBeforeSkipItemAvailable: 5
+  secsOfBlankWhenPromoting: 7
+  goals:
+  - {fileID: 11400000, guid: 71154ea012063274da8b149a1a992443, type: 2}
+  botBodyOptions: {fileID: 11400000, guid: 417c8448aa04d7a4bad7beea5ca0d88b, type: 2}
+  botGlassesOptions: {fileID: 11400000, guid: af6f650272446624a92c7855bbdeee19, type: 2}
+  botHatOptions: {fileID: 11400000, guid: acd3ef55428d4d04582c896bfbcfd441, type: 2}
+  randomizedTasks:
+  - {fileID: 11400000, guid: d90214b0cbfd00c4c9f8ed40143efe8f, type: 2}
+  pageTypes:
+  - {fileID: 11400000, guid: a83bbf9c3a310524b951b00ff70e6a0a, type: 2}
+  - {fileID: 11400000, guid: c0334e3470685ef4e861919fd361c639, type: 2}
+  - {fileID: 11400000, guid: 4c82b47a7fd4d42409a96985f559c56d, type: 2}
+  - {fileID: 11400000, guid: 74ef8d81ef74d004b944dd60a78d3f44, type: 2}
+  - {fileID: 11400000, guid: dffa686046389c04ea252c41ab0d638b, type: 2}
+  voRequestType: 0
+  botVOProfiles:
+  - {fileID: 11400000, guid: 288e89bcf4e3dea46bf9c85072d9c6d3, type: 2}
+  - {fileID: 11400000, guid: df49dbb9d4ad80048afb89edb65a0b22, type: 2}
+  - {fileID: 11400000, guid: 58f9e4a2a758a044dad4ceee26d9f6d7, type: 2}
+  - {fileID: 11400000, guid: 9aba6dfbecc772c41870b6c4ef1c7624, type: 2}
+  - {fileID: 11400000, guid: 04444246bffa08d4fb4e2afa097e60a0, type: 2}
+  - {fileID: 11400000, guid: 30cf1d3641155374fb04d9797c7d8004, type: 2}
+  requiredPages:
+  - {fileID: 11400000, guid: 93320120c01cea64cbe654c9615c8160, type: 2}
+  - {fileID: 11400000, guid: f9c6f43d10f39e44fbdb28b2d6988970, type: 2}
+  baseTask: {fileID: 11400000, guid: 71154ea012063274da8b149a1a992443, type: 2}
+  randomizationType: 1
+  minimumNumberOfRandomPages: 2
+  numTasksTrackedBeforeRepeat: 3
+  numTasksTrackedBeforeRepeatWorldItems: 3
+  percentChanceGenerateFromPages: 0.5
+  goalForTesting: {fileID: 0}

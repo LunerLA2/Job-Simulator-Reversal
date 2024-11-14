@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 23Lunchtime
+  m_EditorClassIdentifier:
+  textBody: You pull another card. "It's time for lunch," says JOB BOT as a vending machine rolls into view. "At midday, humans would interact with primitive robots known as [VENDING MACHINES] to obtain food." JOB BOT hands you a dollar, which you insert into the machine. Do you buy...
+  options:
+  - Burrito
+  - Candy Bar
+  - Pretzel
+  - Chips
+  - Dig around in the trash can instead.
+  results:
+  - You obtain a burrito from the vending machine and consume it. Probably would have been better in the microwave.
+  - You eat the candy bar, which only furthers your sugar rush from earlier in the day.
+  - The pretzel falls down. Undeterred by its lack of any wrapping, you consume it in three bites.
+  - You eat the chips, bag and all. This doesn't seem to bother JOB BOT.
+  - Digging around in the trash can, you find a bag of chips. Excellent!
+  goToTaskOnComplete:
+  - 24
+  - 24
+  - 24
+  - 24
+  - 26
+  isStartOfNewTask: 1

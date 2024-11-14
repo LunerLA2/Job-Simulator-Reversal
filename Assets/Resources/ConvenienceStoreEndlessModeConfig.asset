@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29dacc7cad8b3835dbd4ec2cd263ec09, type: 3}
+  m_Name: ConvenienceStoreEndlessModeConfig
+  m_EditorClassIdentifier:
+  brainGroup: {fileID: 11400000, guid: 37adbdf9a02354548ad8b68fb1a28ccb, type: 2}
+  brainGroupPSVROverride: {fileID: 11400000, guid: 37adbdf9a02354548ad8b68fb1a28ccb, type: 2}
+  promptTextBetweenTasks: Pull Ticket For Next Customer
+  subtaskToAdvanceBetweenTasks: {fileID: 11400000, guid: 21988dbea4a8f5a4787e7eb7583b101d, type: 2}
+  secsOfBlankBeforeStarting: 11.5
+  secsOfBlankAfterCompleting: 0
+  secsBeforeSkipItemAvailable: 5
+  secsOfBlankWhenPromoting: 8
+  goals:
+  - {fileID: 11400000, guid: e87863fe37aef9f488926ffca9689bd4, type: 2}
+  - {fileID: 11400000, guid: 311861728fe25454592f31dc634306bf, type: 2}
+  - {fileID: 11400000, guid: f6a473cf87726504b93f9f37e6660b4b, type: 2}
+  botBodyOptions: {fileID: 11400000, guid: 9163f4e940d42d145afeaec4928b13e3, type: 2}
+  botGlassesOptions: {fileID: 11400000, guid: 731cb2138c3f4284db970fc354dd7947, type: 2}
+  botHatOptions: {fileID: 11400000, guid: 9e41303ff705a974fa64b2d9027dd287, type: 2}
+  randomizedTasks:
+  - {fileID: 11400000, guid: 263c812905531724f9ac4f28537ef88d, type: 2}
+  - {fileID: 11400000, guid: 451f589380349aa42984e10c2276f5e5, type: 2}
+  pageTypes:
+  - {fileID: 11400000, guid: f0b20566dc1f43a4e990b1298341471f, type: 2}
+  - {fileID: 11400000, guid: d07621bbc5433de41bdf8d3b34d42788, type: 2}
+  - {fileID: 11400000, guid: 57ce3e9727dd0fc4caf6e7dce0458246, type: 2}
+  voRequestType: 0
+  botVOProfiles:
+  - {fileID: 11400000, guid: cc60d0c2a14d5c24589c83efd4d72a72, type: 2}
+  - {fileID: 11400000, guid: c7f1442c0713c4a4dbe13be99b03cecf, type: 2}
+  - {fileID: 11400000, guid: 9242ef0212e1a8c449a91565d6eb3dd1, type: 2}
+  - {fileID: 11400000, guid: d85e716f2638f074294d819f260d08dc, type: 2}
+  - {fileID: 11400000, guid: 469a8346b92e98f4aa93e43076fc5863, type: 2}
+  - {fileID: 11400000, guid: 69fc971a43f9b7a4582d03f535e3d7a1, type: 2}
+  requiredPages:
+  - {fileID: 11400000, guid: f35ba415a89a4b64e8e314f9d2b6846d, type: 2}
+  - {fileID: 11400000, guid: e558afafba5906546ab7b7440600d249, type: 2}
+  baseTask: {fileID: 11400000, guid: 2f8e6fe2f0a9a7349856d35cc492439f, type: 2}
+  randomizationType: 4
+  minimumNumberOfRandomPages: 2
+  numTasksTrackedBeforeRepeat: 3
+  numTasksTrackedBeforeRepeatWorldItems: 7
+  percentChanceGenerateFromPages: 0.75
+  goalForTesting: {fileID: 0}

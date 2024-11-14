@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 30RetirementParty
+  m_EditorClassIdentifier:
+  textBody: Pulling yet another card, it is not JOB BOT who approaches you, but another coworker. "Hey human," they begin. "Bot number [10110] is retiring tomorrow, and we want to give them a parting gift. Everyone's pitching in. Why don't you give me something you'd like to contribute?"
+  options:
+  - Hand over your prized stapler.
+  - Print out a memo and hand it over.
+  - Grab a moldy donut from the trash can and chuck it at your coworker.
+  results:
+  - Your co-worker looks delighted. "Oh, how thoughtful! I'm sure they will [APPRECIATE] it!"
+  - Your co-worker looks delighted. "Oh, how thoughtful! I'm sure they will [APPRECIATE] it!"
+  - Your co-worker looks delighted. "Oh, how thoughtful! I'm sure they will [APPRECIATE] it!"
+  goToTaskOnComplete:
+  - 31
+  - 31
+  - 31
+  isStartOfNewTask: 1

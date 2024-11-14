@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1644141917233386
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4298896398256307}
+  - 114: {fileID: 114650425390151729}
+  - 114: {fileID: 114805309834993631}
+  m_Layer: 0
+  m_Name: VehicleHippie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4298896398256307
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644141917233386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.81522834, y: -0.00044858456, z: 2.7336001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114650425390151729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644141917233386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114805309834993631}
+--- !u!114 &114805309834993631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644141917233386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ccb162d0a76c221a02eefe6244503c6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  masterVehiclePrefab: {fileID: 114751523307427343, guid: 07b87b725892fd24fb662978212ee60c, type: 2}
+  chassisPrefab: {fileID: 114610217874595603, guid: 8a3d872bb6365af4b9348fb13a6187ca, type: 2}
+  chassisPrefabPSVR: {fileID: 0}
+  defaultColor: {r: 0.46338966, g: 0.8308824, b: 0.28714314, a: 1}
+  baseCarTexture: {fileID: 2800000, guid: dc49301dd458e5f4e92c97f0c68d9a0b, type: 3}
+  detailCarTexture: {fileID: 2800000, guid: af07b4fd60fcc0b45b5bd219a161e69e, type: 3}
+  hideDetailTextureOncePainted: 0
+  swapDetailTextureOncePainted: 0
+  detailCarTextureOnPaint: {fileID: 0}
+  interiorPrefab: {fileID: 1365918289638321, guid: 6dd6c2641144d1b48a8e49d21423f55f, type: 2}
+  psvrInteriorPrefab: {fileID: 0}
+  enginePrefab: {fileID: 1558324216349014, guid: 73b677365126627429697181cbad06f1, type: 2}
+  vehicleWorldItemData: {fileID: 11400000, guid: 057ccbbbb3c602740bc93976d0bc2659, type: 2}
+  customHoodData: {fileID: 11400000, guid: 51fcf0d399c30334cb412982863d23bf, type: 2}
+  customDoorData: {fileID: 11400000, guid: 691ba6186dea49943881bbbf6f56bf79, type: 2}
+  customTrunkData: {fileID: 11400000, guid: 96d64495c15897a47a9e3685cdd3803e, type: 2}
+  interiorTrinketMountData: {fileID: 11400000, guid: 86f4f6a96154c8846af855218cc266e1, type: 2}
+  wheelPrefabs:
+  - {fileID: 1454565588929928, guid: 5a3ba73fa79b8ff4681e7fd4af7c68dc, type: 2}
+  wheelIndexesThatStartDeflated: []
+  headlightPrefab: {fileID: 1936056777352871, guid: 9e3f7071b041119418054c09193a0050, type: 2}
+  licensePlatePrefab: {fileID: 1852712048486482, guid: d820b702e85fc99488f82d38dc288380, type: 2}
+  gasTankPrefab: {fileID: 1683335866465723, guid: 4e170f0d4fc33c644aa99f7a1896acd4, type: 2}
+  hoodOrnamentPrefab: {fileID: 0}
+  driverSeatUniqueObjectName: DriverSeat_Hippie
+  optionalDriveInSound: {fileID: 0}
+  optionalDriveOutSound: {fileID: 0}
+  isFilterDirty: 0
+  setFluidColor: 0
+  initialFluid: {fileID: 0}
+  initialFluidPercentFull: 0
+  defaultTrinketObjects: []
+  extraHardware:
+  - hardwarePrefab: {fileID: 114745294105038867, guid: 9be7bd38cc0849b40b3e276ad38f2108, type: 2}
+    mountPoint: 0
+  extraHardwarePSVROnly:
+  - hardwarePrefab: {fileID: 114397058467623654, guid: 5024918410485a34b9995e40bb2eb1f3, type: 2}
+    mountPoint: 8
+  extraHardwaveNonPSVROnly:
+  - hardwarePrefab: {fileID: 114453888661099458, guid: 70c550a10af858049a593b6cb3df6aa7, type: 2}
+    mountPoint: 8
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1644141917233386}
+  m_IsPrefabParent: 1

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 37WaterCooler
+  m_EditorClassIdentifier:
+  textBody: Firing people sure is exhausting, especially with the burden of job security on your shoulders. As you take a card, JOB BOT seems to have been paying attention, because a WATER COOLER floats in. "In the office, co-workers would converse around the liquid dispenser," JOB BOT explains. A few coworkers have gathered around.
+  options:
+  - Take a cup of water, sip, and chat with your coworkers.
+  - Stick your face under the nozzle and HYDRATE.
+  - What's this water stuff? I want coffee. COFFEE.
+  results:
+  - '"Man, did you hear that [BOT 2272] got fired?" asks your coworker. You nod with vague disinterest.'
+  - '"Man, did you hear that [BOT 2272] got fired?" asks your coworker. Water begins spilling out of your mouth in a puddle on the floor. Sweet, sweet hydration.'
+  - '"Man, did you hear that [BOT 2272] got fired?" asks your coworker as you begin pounding cup after cup of coffee. The shakes from the morning have returned. You are extremely caffeinated. The coffee speaks to you in hushed tones.'
+  goToTaskOnComplete:
+  - 38
+  - 38
+  - 39
+  isStartOfNewTask: 1

@@ -1,0 +1,665 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491c87d948ef4bd6b9807b6d2aca9659, type: 3}
+  m_Name: ImpactAudioMatrix
+  m_EditorClassIdentifier:
+  surfaceTypeAudioPriority:
+  - {fileID: 11400000, guid: 74e1a9876ecb72f4697e8779d3b237b7, type: 2}
+  - {fileID: 11400000, guid: 9ba391159b0aee54e9908325ef65700e, type: 2}
+  - {fileID: 11400000, guid: 98b240804f5a08743af46093a4704621, type: 2}
+  - {fileID: 11400000, guid: 58032bafd4fa02343b59dec240b62949, type: 2}
+  - {fileID: 11400000, guid: b09ea398d184e6747955fedd4145655c, type: 2}
+  - {fileID: 11400000, guid: fadc455cbcd88c44d85aa6ab43533a68, type: 2}
+  - {fileID: 11400000, guid: 38be330add8d6194cbb2390a86af1c27, type: 2}
+  - {fileID: 11400000, guid: 90e6d2decc10ade4388d504cb251d73e, type: 2}
+  - {fileID: 11400000, guid: 3a5b8b2d06671364883b9cc027a04f2b, type: 2}
+  - {fileID: 11400000, guid: 609f89bf8098e0b40be60a756d34b83a, type: 2}
+  impactAudioDataCollection:
+  - impactAudioClips:
+    - {fileID: 8300000, guid: bc7cdb2dd5881c24ebf6a7aab89ff697, type: 3}
+    - {fileID: 8300000, guid: 4c2460043219b604d9ec757bcd9c323c, type: 3}
+    - {fileID: 8300000, guid: 043b4afd9e740194e96110f52cd35271, type: 3}
+    - {fileID: 8300000, guid: f2c71e65f3fb97149b4fc96ba4a8f673, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 4
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: b09ea398d184e6747955fedd4145655c, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: bc7cdb2dd5881c24ebf6a7aab89ff697, type: 3}
+    - {fileID: 8300000, guid: 4c2460043219b604d9ec757bcd9c323c, type: 3}
+    - {fileID: 8300000, guid: 043b4afd9e740194e96110f52cd35271, type: 3}
+    - {fileID: 8300000, guid: f2c71e65f3fb97149b4fc96ba4a8f673, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 5
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 4abf6079940d4504d9cfd3cff05cb8f5, type: 3}
+    - {fileID: 8300000, guid: f9276ba2dfff13749957e0c903c847b2, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 4
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 9ba391159b0aee54e9908325ef65700e, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: bb373b81da8629a488f487bbd70d554a, type: 3}
+    - {fileID: 8300000, guid: 881a6408ec3c9d0469235607f79eb12d, type: 3}
+    - {fileID: 8300000, guid: bd129d617016ffa41b8b64aef3e2ce56, type: 3}
+    - {fileID: 8300000, guid: cdc67715c5ef31d47bb3f3e938ebd88f, type: 3}
+    - {fileID: 8300000, guid: ecdfafa6346f9c245b5c269ee28a63f1, type: 3}
+    - {fileID: 8300000, guid: be2bbf6ec98877d45b0cf64778167e64, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 4
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 609f89bf8098e0b40be60a756d34b83a, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 4abf6079940d4504d9cfd3cff05cb8f5, type: 3}
+    - {fileID: 8300000, guid: f9276ba2dfff13749957e0c903c847b2, type: 3}
+    - {fileID: 8300000, guid: 3372a0341a9f1914f8b97678296e6747, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 4
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 98b240804f5a08743af46093a4704621, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 2ee14900b592add4d80ad6844dd5dc81, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: e3361f5575136a944a03e4c96ac86d8c, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 2ee14900b592add4d80ad6844dd5dc81, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 86e8141dac4f6b645bb36482ebbf76d7, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 9894397cd759f4c4f9878536b91b6012, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 326dd1f2bd0edef4e9e6d069b4f2d8fa, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 78953546469b4084eaa889ef2543f3e7, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 0e3eed15df58055478c0462b3acd986b, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 7de5aa103f6dbc048aa69858cdcbcfb3, type: 3}
+    - {fileID: 8300000, guid: babcf1715371d9143815d9c094fd2265, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: ffe600d6473539a4fa8f79ff2f27b64c, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 2ee14900b592add4d80ad6844dd5dc81, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 7e858d3bd4e4e6c488996b116e4da938, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips: []
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 3
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 609f89bf8098e0b40be60a756d34b83a, type: 2}
+    surfaceTypeData2: {fileID: 11400000, guid: 98b240804f5a08743af46093a4704621, type: 2}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: ac38bb06585caab458e3f6c0c810136b, type: 3}
+    - {fileID: 8300000, guid: 673ac4c0060c0c34b85598031dd7776b, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 3
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 3a5b8b2d06671364883b9cc027a04f2b, type: 2}
+    surfaceTypeData2: {fileID: 11400000, guid: 609f89bf8098e0b40be60a756d34b83a, type: 2}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: dc26fe3fd51933b41a6067a2460918d6, type: 3}
+    - {fileID: 8300000, guid: 2b2309cbd257f14439e7656c23d074ec, type: 3}
+    - {fileID: 8300000, guid: e1d6f4c0e7f7cab409becf3c315367c8, type: 3}
+    - {fileID: 8300000, guid: 4dac6f175b0f37f49b08c2ebe9480994, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 3
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 3a5b8b2d06671364883b9cc027a04f2b, type: 2}
+    surfaceTypeData2: {fileID: 11400000, guid: 90e6d2decc10ade4388d504cb251d73e, type: 2}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: daf0b264644b7e447bdf6c423528505b, type: 3}
+    - {fileID: 8300000, guid: e4c0b662162e5b94c89fd649c0cd5bcd, type: 3}
+    - {fileID: 8300000, guid: 6825ca8813d30e1488a1db5ca0444868, type: 3}
+    - {fileID: 8300000, guid: 74a753c2713c533488152d76525dcc87, type: 3}
+    slowImpactAudioClips:
+    - {fileID: 8300000, guid: 5d6f97db02ab47b48b5acd2a7fa7403d, type: 3}
+    - {fileID: 8300000, guid: 0f5ccb79b265bda41a7425e26e416d5c, type: 3}
+    - {fileID: 8300000, guid: 60bb03c54bb25954cb13c917f443758d, type: 3}
+    - {fileID: 8300000, guid: 1b4f8e4734b01204e9ee7b6b1b5a8f11, type: 3}
+    slideAudioClip: {fileID: 0}
+    impactVsType: 4
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 3a5b8b2d06671364883b9cc027a04f2b, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 2f311ef22f0d66b41bc7f64c5a45c1e9, type: 3}
+    - {fileID: 8300000, guid: 2f311ef22f0d66b41bc7f64c5a45c1e9, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 4
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 90e6d2decc10ade4388d504cb251d73e, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: e906b9aad79784d4b9f9c502b8442589, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 3
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 609f89bf8098e0b40be60a756d34b83a, type: 2}
+    surfaceTypeData2: {fileID: 11400000, guid: 90e6d2decc10ade4388d504cb251d73e, type: 2}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: a3114db76cf446144a4c7e3867084e8b, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 4
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 38be330add8d6194cbb2390a86af1c27, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: c4da57fdbbaeb5b4e9ae64482586cb79, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 08c5b342d1d665f43943ce5567718ba6, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 8b094345b674e494db8a9b96c762eb69, type: 3}
+    - {fileID: 8300000, guid: ca0b40a32ffb37147a3fc545226df728, type: 3}
+    slowImpactAudioClips:
+    - {fileID: 8300000, guid: 7f0d692180a5db44d8918c7ef212c190, type: 3}
+    slideAudioClip: {fileID: 0}
+    impactVsType: 4
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: fadc455cbcd88c44d85aa6ab43533a68, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: e6dd26c365ad4694f96831bb0af5bf4d, type: 3}
+    - {fileID: 8300000, guid: 062a285117ea2ee4cb59dcd6da40b522, type: 3}
+    - {fileID: 8300000, guid: 850d4f6ac2cd0c64ea79cb958deb0d07, type: 3}
+    - {fileID: 8300000, guid: 08735dad826cb9a4c86661ad9a4e70c0, type: 3}
+    - {fileID: 8300000, guid: fba2d04253c894648960c189ca1ca9f6, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 4
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 74e1a9876ecb72f4697e8779d3b237b7, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 667eb997600b585429cd6ef99b52e231, type: 3}
+    - {fileID: 8300000, guid: ccad08e264270a74d98d0d777fb99036, type: 3}
+    - {fileID: 8300000, guid: 52ece9030a8eef1408b8dc771597e869, type: 3}
+    - {fileID: 8300000, guid: 8691faf3b77594d4b9c2de7e8c958be4, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 4
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 58032bafd4fa02343b59dec240b62949, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 4358d2dc7cafeeb4c851eb1b09367163, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 6310994b2872584469000a53371f5b15, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: e04c20fea33b5d748af65f5c5722bc99, type: 3}
+    - {fileID: 8300000, guid: 5dbfb3f0ae23df94e99011e5e515e6de, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: d914fdda49059f74ca4490de70340205, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: f6c063746e378d64e91d5e07fa8f775c, type: 3}
+    - {fileID: 8300000, guid: 7f7c4fe733ebb8843a38d178d477ab73, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 0d628b11b4846664b9f297c1624b1b8e, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 5b058615600b5154badf06d9770d411a, type: 3}
+    - {fileID: 8300000, guid: 27fa8465f0c397d48ad070e7e585a32a, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 79910f71d11588d419f414e72e1ddc3a, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 2a120ca83e4a5aa46a0793b3113de85a, type: 3}
+    - {fileID: 8300000, guid: a403d3cbb15faff4589c5297e59fd071, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: a597b9a0cc0b37e459dbdc6d5348e2e3, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: e5d1f4df9643dd44e869da0c5f58743e, type: 3}
+    - {fileID: 8300000, guid: e5d1f4df9643dd44e869da0c5f58743e, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 3700abd90007ed34085bf9c331910431, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 437d1bd96fc7d9a45ab75a46dec723f4, type: 3}
+    - {fileID: 8300000, guid: 88f796fb7e5d57047b755193db7224d4, type: 3}
+    - {fileID: 8300000, guid: 03f5c0c31eed02a4783eb79aee172ecc, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 1
+    worldItemData1: {fileID: 11400000, guid: 7e2f24de55fefd546a39b422260c7cdf, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 38be330add8d6194cbb2390a86af1c27, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: ba6ba315c79b7a44ba1c78cb4c64bfad, type: 3}
+    - {fileID: 8300000, guid: 28c5a604b4d2c28478d6efe515c98092, type: 3}
+    - {fileID: 8300000, guid: 2301c0f90f3a8e042b95fa19b3b796a6, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 3
+    worldItemData1: {fileID: 0}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: 90e6d2decc10ade4388d504cb251d73e, type: 2}
+    surfaceTypeData2: {fileID: 11400000, guid: fadc455cbcd88c44d85aa6ab43533a68, type: 2}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 6049c44436892b044826646de628dc15, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 5ca81a161feb6954a86488e1cd4f8c6a, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 5b058615600b5154badf06d9770d411a, type: 3}
+    - {fileID: 8300000, guid: 27fa8465f0c397d48ad070e7e585a32a, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: bcf1aef98a3b02445bf67ab4b53afd64, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 850d4f6ac2cd0c64ea79cb958deb0d07, type: 3}
+    - {fileID: 8300000, guid: 08735dad826cb9a4c86661ad9a4e70c0, type: 3}
+    - {fileID: 8300000, guid: fba2d04253c894648960c189ca1ca9f6, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: f0a857071c51019428a2e6e1a20244ad, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: e936f3f70fe78f240a476d0559712fc4, type: 3}
+    - {fileID: 8300000, guid: 3338ea513f831724ebd7b38fc944dfb2, type: 3}
+    - {fileID: 8300000, guid: eba9eeb86f5430446bb4ea4e0e4fc1d4, type: 3}
+    - {fileID: 8300000, guid: a7cb23c038e8ba94c90911a2e5c6853f, type: 3}
+    - {fileID: 8300000, guid: 10530409cc4368b47b88d8a91d12a219, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 03a8ea9bdaadb5f4584debe26ef00e7e, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: e936f3f70fe78f240a476d0559712fc4, type: 3}
+    - {fileID: 8300000, guid: 3338ea513f831724ebd7b38fc944dfb2, type: 3}
+    - {fileID: 8300000, guid: eba9eeb86f5430446bb4ea4e0e4fc1d4, type: 3}
+    - {fileID: 8300000, guid: a7cb23c038e8ba94c90911a2e5c6853f, type: 3}
+    - {fileID: 8300000, guid: 10530409cc4368b47b88d8a91d12a219, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 41991b3da21aaa3489b29cc20c71ff9b, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: e936f3f70fe78f240a476d0559712fc4, type: 3}
+    - {fileID: 8300000, guid: 3338ea513f831724ebd7b38fc944dfb2, type: 3}
+    - {fileID: 8300000, guid: eba9eeb86f5430446bb4ea4e0e4fc1d4, type: 3}
+    - {fileID: 8300000, guid: a7cb23c038e8ba94c90911a2e5c6853f, type: 3}
+    - {fileID: 8300000, guid: 10530409cc4368b47b88d8a91d12a219, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 79f1c7c51bee02b498a9b7b4b9c1e825, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: e936f3f70fe78f240a476d0559712fc4, type: 3}
+    - {fileID: 8300000, guid: 3338ea513f831724ebd7b38fc944dfb2, type: 3}
+    - {fileID: 8300000, guid: eba9eeb86f5430446bb4ea4e0e4fc1d4, type: 3}
+    - {fileID: 8300000, guid: a7cb23c038e8ba94c90911a2e5c6853f, type: 3}
+    - {fileID: 8300000, guid: 10530409cc4368b47b88d8a91d12a219, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: c5574cec4ac96904daf223a45041ef1e, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 7b2c06781ce35c24787d862ec729b54d, type: 3}
+    - {fileID: 8300000, guid: 09b9930efbc7ba941a4866f8d8a4ef54, type: 3}
+    - {fileID: 8300000, guid: 08fcaac26e4d4a54598a99a0843692e1, type: 3}
+    - {fileID: 8300000, guid: 67057615581ee1e4a84faf3494d33391, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 45df9a6d2c11c8d45a9c97853c233ae3, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 18dbc3224f5c0e442a6cc0aa3080f505, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 0
+    worldItemData1: {fileID: 11400000, guid: ffe600d6473539a4fa8f79ff2f27b64c, type: 2}
+    worldItemData2: {fileID: 11400000, guid: baedc3952ab241f46a022208b9535d56, type: 2}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 135c8e7bf7abffd4db2788c703853219, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 0
+    worldItemData1: {fileID: 11400000, guid: 36530172c10b7654fa6aa9075192039c, type: 2}
+    worldItemData2: {fileID: 11400000, guid: baedc3952ab241f46a022208b9535d56, type: 2}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 18dbc3224f5c0e442a6cc0aa3080f505, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 0
+    worldItemData1: {fileID: 11400000, guid: baedc3952ab241f46a022208b9535d56, type: 2}
+    worldItemData2: {fileID: 11400000, guid: 48e25beb5ad76f346a18a595c851a7e4, type: 2}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 135c8e7bf7abffd4db2788c703853219, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 0
+    worldItemData1: {fileID: 11400000, guid: baedc3952ab241f46a022208b9535d56, type: 2}
+    worldItemData2: {fileID: 11400000, guid: 8260b19b964ac204c91f211782b48c40, type: 2}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 7de5aa103f6dbc048aa69858cdcbcfb3, type: 3}
+    - {fileID: 8300000, guid: babcf1715371d9143815d9c094fd2265, type: 3}
+    slowImpactAudioClips:
+    - {fileID: 8300000, guid: 7f0d692180a5db44d8918c7ef212c190, type: 3}
+    - {fileID: 8300000, guid: ca0b40a32ffb37147a3fc545226df728, type: 3}
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 48e25beb5ad76f346a18a595c851a7e4, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 7de5aa103f6dbc048aa69858cdcbcfb3, type: 3}
+    - {fileID: 8300000, guid: babcf1715371d9143815d9c094fd2265, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 8260b19b964ac204c91f211782b48c40, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: ca5a91e9543b4f0449ea52b0d055de3f, type: 3}
+    - {fileID: 8300000, guid: a03f58d6169c793419a49ffcc7e945ea, type: 3}
+    - {fileID: 8300000, guid: 1ac76583afe263742bfb12962db92fa8, type: 3}
+    - {fileID: 8300000, guid: fe390eee870d72c40bfec71d9d36bc9f, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 07acb491b841ced4ca4f0d097594d3e7, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 1ac76583afe263742bfb12962db92fa8, type: 3}
+    - {fileID: 8300000, guid: fe390eee870d72c40bfec71d9d36bc9f, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: ee16c02d3b183514aae3a5c37f6d729f, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: ca5a91e9543b4f0449ea52b0d055de3f, type: 3}
+    - {fileID: 8300000, guid: a03f58d6169c793419a49ffcc7e945ea, type: 3}
+    - {fileID: 8300000, guid: 1ac76583afe263742bfb12962db92fa8, type: 3}
+    - {fileID: 8300000, guid: fe390eee870d72c40bfec71d9d36bc9f, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 1
+    worldItemData1: {fileID: 11400000, guid: e3361f5575136a944a03e4c96ac86d8c, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: b09ea398d184e6747955fedd4145655c, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: ca5a91e9543b4f0449ea52b0d055de3f, type: 3}
+    - {fileID: 8300000, guid: a03f58d6169c793419a49ffcc7e945ea, type: 3}
+    - {fileID: 8300000, guid: 1ac76583afe263742bfb12962db92fa8, type: 3}
+    - {fileID: 8300000, guid: fe390eee870d72c40bfec71d9d36bc9f, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 1
+    worldItemData1: {fileID: 11400000, guid: 86e8141dac4f6b645bb36482ebbf76d7, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 11400000, guid: b09ea398d184e6747955fedd4145655c, type: 2}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 437d1bd96fc7d9a45ab75a46dec723f4, type: 3}
+    - {fileID: 8300000, guid: 88f796fb7e5d57047b755193db7224d4, type: 3}
+    - {fileID: 8300000, guid: 03f5c0c31eed02a4783eb79aee172ecc, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: cc4dc73e97d02fb4f8904ea6a533ba63, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 437d1bd96fc7d9a45ab75a46dec723f4, type: 3}
+    - {fileID: 8300000, guid: 88f796fb7e5d57047b755193db7224d4, type: 3}
+    - {fileID: 8300000, guid: 03f5c0c31eed02a4783eb79aee172ecc, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 27f364f6f2f96c6428bbd74171921c5c, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 35ea0be8b27061a4f97d3fcc9a35e759, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 6e07c18235fe7454ba8dcbedb8229828, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 8224d7e0ad0193248b6aab441d5ee888, type: 3}
+    - {fileID: 8300000, guid: 07680aba421a2de42b53a99c10a31ca6, type: 3}
+    - {fileID: 8300000, guid: b199e500a01a59b4e9c5e36a8074b467, type: 3}
+    - {fileID: 8300000, guid: f99feea61b1cf0649adfca3caf957fe1, type: 3}
+    slowImpactAudioClips:
+    - {fileID: 8300000, guid: 5f5f1115690ae7041b4ee5e0bc7c3a3c, type: 3}
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: ee472b2e870142345b8fd7423ea01007, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 8224d7e0ad0193248b6aab441d5ee888, type: 3}
+    - {fileID: 8300000, guid: b199e500a01a59b4e9c5e36a8074b467, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: e3b74e3696edaf54baa46e0b06427268, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: 7b2c06781ce35c24787d862ec729b54d, type: 3}
+    - {fileID: 8300000, guid: 09b9930efbc7ba941a4866f8d8a4ef54, type: 3}
+    - {fileID: 8300000, guid: 08fcaac26e4d4a54598a99a0843692e1, type: 3}
+    - {fileID: 8300000, guid: 67057615581ee1e4a84faf3494d33391, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: d75b40c972079d0468848652d3e302b3, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: bb373b81da8629a488f487bbd70d554a, type: 3}
+    - {fileID: 8300000, guid: bd129d617016ffa41b8b64aef3e2ce56, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: c687180ac937b8740a8dea4b584624e9, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: c917a6d3340fb444792103ba48f67de6, type: 3}
+    - {fileID: 8300000, guid: ecdfafa6346f9c245b5c269ee28a63f1, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: b1e462c3b3fe22943a7addafd8f50f90, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: ded3cccf32050634fa4c6b02d949ff8a, type: 3}
+    - {fileID: 8300000, guid: 8ff94c093c8d8f24eae902c455b74b8c, type: 3}
+    - {fileID: 8300000, guid: b4a041fe4b8031d4eac7c5c120e5775d, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: c37bd775ce719844e9ddf9a983585ebb, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: a7cb23c038e8ba94c90911a2e5c6853f, type: 3}
+    - {fileID: 8300000, guid: 10530409cc4368b47b88d8a91d12a219, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 782159f753e1eb24fb1d8cba6123812e, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: ded3cccf32050634fa4c6b02d949ff8a, type: 3}
+    - {fileID: 8300000, guid: 8ff94c093c8d8f24eae902c455b74b8c, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 9277b173fbbbc5b4e8b8ce141c195d40, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}
+  - impactAudioClips:
+    - {fileID: 8300000, guid: b96de0860fedd4641afdce1b378439e2, type: 3}
+    - {fileID: 8300000, guid: c917a6d3340fb444792103ba48f67de6, type: 3}
+    - {fileID: 8300000, guid: dc32e9864a66d8e4c88cc4e27a1f8e1e, type: 3}
+    slowImpactAudioClips: []
+    slideAudioClip: {fileID: 0}
+    impactVsType: 2
+    worldItemData1: {fileID: 11400000, guid: 2e7f5801622b27642945d7e0140f1ded, type: 2}
+    worldItemData2: {fileID: 0}
+    surfaceTypeData1: {fileID: 0}
+    surfaceTypeData2: {fileID: 0}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 14LookBusy
+  m_EditorClassIdentifier:
+  textBody: As you pull another ticket, you begin to contemplate your approaching obsolescence in the workforce. Apparently noticing your lack of JOB, JOB BOT interjects. "Here comes SUPERVISOR BOT! Better look busy!"\n\n"OK everybody! Let's make some [BUSINESS]!" shouts SUPERVISOR BOT with glee. "JOHNSON, I'm countin' on you to [PARADIGM SHIFT] those [OPTIMIZATIONS]!" JOHNSON looks nervous.
+  options:
+  - Begin fumbling with your computer in an attempt to look busy.
+  - Put your feet up on the desk. You could use a good stretch.
+  results:
+  - You begin to unravel the secrets your computer has in store. Or not. You can hear JOHNSON nervously affirm that he's got things under control. "That's what I like to hear!" says SUPERVISOR BOT.
+  - You kick back in your chair and put your feet up. JOHNSON and SUPERVISOR BOT are speaking, but you don't catch what about. You are far too relaxed to care.
+  goToTaskOnComplete:
+  - 15
+  - 15
+  isStartOfNewTask: 1

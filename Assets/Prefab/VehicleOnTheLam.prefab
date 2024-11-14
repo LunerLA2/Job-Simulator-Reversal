@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1770881375859332
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4002152324197348}
+  - 114: {fileID: 114201639286526956}
+  - 114: {fileID: 114993029214885226}
+  m_Layer: 0
+  m_Name: VehicleOnTheLam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4002152324197348
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1770881375859332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114201639286526956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1770881375859332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114993029214885226}
+--- !u!114 &114993029214885226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1770881375859332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ccb162d0a76c221a02eefe6244503c6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  masterVehiclePrefab: {fileID: 114751523307427343, guid: 07b87b725892fd24fb662978212ee60c, type: 2}
+  chassisPrefab: {fileID: 114725099815413585, guid: 1e94a04e8443cdf4c92540e17c4897fd, type: 2}
+  chassisPrefabPSVR: {fileID: 0}
+  defaultColor: {r: 0.4217128, g: 0.44408482, b: 0.5514706, a: 1}
+  baseCarTexture: {fileID: 2800000, guid: b5d22a6a3fcb4eb478c583a161a70951, type: 3}
+  detailCarTexture: {fileID: 2800000, guid: 37645d9c0e9897043b50f128cf799c11, type: 3}
+  hideDetailTextureOncePainted: 0
+  swapDetailTextureOncePainted: 0
+  detailCarTextureOnPaint: {fileID: 0}
+  interiorPrefab: {fileID: 1365918289638321, guid: 6dd6c2641144d1b48a8e49d21423f55f, type: 2}
+  psvrInteriorPrefab: {fileID: 0}
+  enginePrefab: {fileID: 1876515128959289, guid: af53cc57d99da9444a529280161fa905, type: 2}
+  vehicleWorldItemData: {fileID: 11400000, guid: 04b7e582c0e1f8d4e90a007a43d9ae71, type: 2}
+  customHoodData: {fileID: 11400000, guid: 6a0d97afcb4168d4fa624527b31a069e, type: 2}
+  customDoorData: {fileID: 11400000, guid: ad48ef7a52d402f4f8911b5ebd0e0252, type: 2}
+  customTrunkData: {fileID: 11400000, guid: d5a09f6996980ba42925b2a8a52a1b87, type: 2}
+  interiorTrinketMountData: {fileID: 0}
+  wheelPrefabs:
+  - {fileID: 1724913964626750, guid: f5e7ecf2cd5557b449876b9c779a03a6, type: 2}
+  wheelIndexesThatStartDeflated: []
+  headlightPrefab: {fileID: 1931937217539892, guid: 8e8989eec2def7e42b63dc5710d3db78, type: 2}
+  licensePlatePrefab: {fileID: 1959715034778399, guid: 05de7ab7e95c43e498ea905240c7ce66, type: 2}
+  gasTankPrefab: {fileID: 1578943838098800, guid: e70a079271392fd488b3da41dbdc738e, type: 2}
+  hoodOrnamentPrefab: {fileID: 0}
+  driverSeatUniqueObjectName: DriverSeat_Bandit
+  optionalDriveInSound: {fileID: 0}
+  optionalDriveOutSound: {fileID: 0}
+  isFilterDirty: 0
+  setFluidColor: 0
+  initialFluid: {fileID: 0}
+  initialFluidPercentFull: 0
+  defaultTrinketObjects: []
+  extraHardware:
+  - hardwarePrefab: {fileID: 114662817105993817, guid: 78d652db85bd4a743b0b0023eeeced3f, type: 2}
+    mountPoint: 8
+  extraHardwarePSVROnly: []
+  extraHardwaveNonPSVROnly: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1770881375859332}
+  m_IsPrefabParent: 1

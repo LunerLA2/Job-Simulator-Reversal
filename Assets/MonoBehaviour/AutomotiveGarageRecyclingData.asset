@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8200566783c245ac760b7180f7a130c, type: 3}
+  m_Name: AutomotiveGarageRecyclingData
+  m_EditorClassIdentifier:
+  recycleInfos:
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 9121d898617adf4429c17cabccde7d1c, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 8d504d6dd93272f4fbfa83a5b9252594, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1716677195917489, guid: 619030b3dd7a6cd41bb42a81412a9669, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: FloatRight
+      spawnType: 2
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: f0b6f3b17c702df4cbbe9bb10230efc9, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: d0a4ab3586e12e34da18850eb0e9261b, type: 2}
+    - {fileID: 0}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1552868403239414, guid: 0c514560c56e73b4abf518b6eef2f5cf, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: FloatFarLeftBrush
+      spawnType: 2
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 8dbe8ca27bca62747b46648682b337da, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: d0a4ab3586e12e34da18850eb0e9261b, type: 2}
+    - {fileID: 0}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1664030264868809, guid: df9d151acdfa6ca4f968fc43181e8ffa, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: FloatPalette
+      spawnType: 2
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: aa31766898069f24eb73a2de9e3b7798, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: fadb5304fb8f3654b80e83df526c1434, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1042831494484559, guid: 302382cd9b9584d409bd2df34494f294, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: FloatFarLeft
+      spawnType: 2
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: 30f25d8f25c44e049a505917a493d149, type: 2}
+    - {fileID: 11400000, guid: 3323b6f86a103a945ae372a3660156ad, type: 2}
+    minimumQuantityToMaintainInScene: 1
+    alwaysMaintainQuantity: 0
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages:
+    - {fileID: 11400000, guid: 715fd229d0ba43246899fbcdbc9a3f56, type: 2}
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1895948670891975, guid: 47d10e306bfc9db49987d788de676ccf, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: FloatRight
+      spawnType: 2
+  - worldItemsToMonitor:
+    - {fileID: 11400000, guid: bdbb21e825c6b5346b35fbef8e28e7e9, type: 2}
+    minimumQuantityToMaintainInScene: 0
+    alwaysMaintainQuantity: 1
+    ignoreIfDestructionWasBeneficial: 0
+    refillQuantityOnTaskOrPageStart: 0
+    maintainQuantityDuringTasks: []
+    maintainQuantityDuringPages: []
+    prefabSelectionMode: 0
+    prefabsToSpawnAsReplacement:
+    - {fileID: 1180869652661849, guid: eb1519338cec0d44dae25a08ee1c572a, type: 2}
+    locationSelectionMode: 0
+    possibleSpawnLocations:
+    - uniqueObjectID: FloatRight
+      spawnType: 2
+  fallbackRespawnLocationID: FloatRight

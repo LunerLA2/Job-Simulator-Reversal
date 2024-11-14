@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1731576591611283
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4143498704063190}
+  - 114: {fileID: 114651363097489121}
+  - 114: {fileID: 114075740187936231}
+  m_Layer: 0
+  m_Name: CDFlappyBot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4143498704063190
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731576591611283}
+  m_LocalRotation: {x: -0.27410764, y: 0.20719518, z: -0.535146, w: 0.7717215}
+  m_LocalPosition: {x: 0.7105213, y: 0.85301363, z: -0.17856728}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -40.169716, y: -1.5138577, z: 70.03189}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114651363097489121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731576591611283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114075740187936231}
+--- !u!114 &114075740187936231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731576591611283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 777490a94833950f4dc75aca691d0cf5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefab: {fileID: 114448945263415105, guid: 60f8548799edf744e8496a5bfe125888, type: 2}
+  material: {fileID: 2100000, guid: 8353c7504d1575c429aa1b8691231bf1, type: 2}
+  programID: 17
+  itemData: {fileID: 11400000, guid: 983e6a0efd2de30469e09b8bcc1421e4, type: 2}
+  spawnRandomCD: 0
+  randomPrograms: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1731576591611283}
+  m_IsPrefabParent: 1

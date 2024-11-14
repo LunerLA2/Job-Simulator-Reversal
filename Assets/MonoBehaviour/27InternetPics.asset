@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 27InternetPics
+  m_EditorClassIdentifier:
+  textBody: You pull another card. "Hey co-worker!" shouts a bot in an adjacent cubicle. "Get on your computer and check out these hilarious pictures!" A notification pops up on your computer that you have new e-mail.
+  options:
+  - Tell your co-worker these are hilarious.
+  - Sarcastically tell your co-worker these are hilarious, and delete them.
+  - Inform your co-worker that you both live in a text adventure and you cannot fully comprehend memes through this medium due to their inherently visual nature.
+  results:
+  - Your co-worker looks pleased as you flip through the memes, and a smile lights up your face. You've seen better, but they're amusing.
+  - Your co-worker has linked you memes that you saw on JobImg three days ago. You half-heartedly pretend you’re looking at them for the first time. Deleted.
+  - '"Wow, I bet you''re a lot of fun at parties," smarms your co-worker.'
+  goToTaskOnComplete:
+  - 28
+  - 28
+  - 28
+  isStartOfNewTask: 1

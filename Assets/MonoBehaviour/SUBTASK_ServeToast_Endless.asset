@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302042b27749c0e3372547227a137bf0, type: 3}
+  m_Name: SUBTASK_ServeToast_Endless
+  m_EditorClassIdentifier:
+  subtaskIconLayoutType: 0
+  actionEventConditions:
+  - actionEventData: {fileID: 11400000, guid: 6097a83f1521a2c4f90fccdaeae61319, type: 2}
+    worldItemData1: {fileID: 11400000, guid: 07acb491b841ced4ca4f0d097594d3e7, type: 2}
+    worldItemData2: {fileID: 11400000, guid: 18d6a191a9cc04f49a1af256b2e49698, type: 2}
+    amount: 0
+    isPositive: 1
+  - actionEventData: {fileID: 11400000, guid: ecfa680e310a2604f95d41f0a85d0080, type: 2}
+    worldItemData1: {fileID: 11400000, guid: 07acb491b841ced4ca4f0d097594d3e7, type: 2}
+    worldItemData2: {fileID: 11400000, guid: 18d6a191a9cc04f49a1af256b2e49698, type: 2}
+    amount: 0
+    isPositive: 0
+  layoutDependantSpriteOne: {fileID: 21300000, guid: 06408d6edb379454fb47366fdb0ac180, type: 2}
+  layoutDependantSpriteTwo: {fileID: 21300000, guid: 9af7f86ddea7b1b4dba1a5daee1e6e41, type: 2}
+  layoutDependantSpriteThree: {fileID: 0}
+  layoutDependantSpriteFour: {fileID: 0}
+  layoutDependantSpriteFive: {fileID: 0}
+  counterSize: 1
+  hideCounterOnJobBoard: 0
+  onlyTrackProgressWhenVisible: 0
+  subtasksToAutoComplete: []
+  disallowUncompleteOnAutoCompletedSubtasks: 0

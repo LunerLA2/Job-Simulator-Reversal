@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 0Intro
+  m_EditorClassIdentifier:
+  textBody: You find yourself in an office cubicle. Many trinkets of various shapes, sizes and colors litter what you can only assume is your desk. JOB BOT enters your view. "Hello human!" they say, cheerfully. "Welcome to an accurate simulation of [OFFICE WORKER]. Take a look at this board for instructions!" \n\nThe JOB BOARD hovers lazily just outside your cubicle. [TAKE PAPER WHEN READY!], it reads, displaying an image of your fax machine.
+  options:
+  - Grab the paper and get to JOB!
+  - Throw something at the JOB BOARD.
+  - Grab the paper, but throw it at JOB BOT.
+  - Throw something at JOB BOT.
+  results:
+  - You grab the paper and gingerly place it on your desk.
+  - The JOB BOARD apparently needs to work out, as the paper causes it to spark and tilt backwards from the impact. It continues to hover and settles back into place, though you're getting some serious negative energy from it now. Can a machine be ornery? You are unsure.
+  - JOB BOT emits sparks and some sort of electrical interference noise, but seems largely unfazed.
+  - You grab the stapler from your desk and chuck it at JOB BOT. JOB BOT continues to smile enthusastically, ready for you to begin JOB.
+  goToTaskOnComplete:
+  - 1
+  - 0
+  - 1
+  - 0
+  isStartOfNewTask: 0

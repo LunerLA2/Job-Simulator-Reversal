@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 1JavaFlowing
+  m_EditorClassIdentifier:
+  textBody: A cart containing coffee cups and donuts wheels into your cubicle. "Humans would traditionally start their day with an addictive liquid stimulant," they explain, motioning toward the coffee machine behind you.
+  options:
+  - Grab a coffee cup, fill it, and toss it back in one gulp.
+  - Eat a donut. Gotta get that morning sugar rush.
+  - Stick your face under the coffee machine and hit the on button. Cups are for amateurs. You are a professional.
+  - Jam your face into the box of donuts and consume them all.
+  results:
+  - 'You gingerly place a coffee cup under the coffee machine and wait for it to fill before gulping it all down. '
+  - You grab a particularly delicious-looking donut covered in chocolate frosting and eat the whole thing in two bites.
+  - Sticking your head under the nozzle, you turn on the coffee machine and drink its entire contents. You begin to shake from the caffeine.
+  - Physics have no bearing on you as your face phases through the box of donuts as you consume each one with the ferocity of a vacuum cleaner on a dusty floor.
+  goToTaskOnComplete:
+  - 3
+  - 2
+  - 3
+  - 2
+  isStartOfNewTask: 0

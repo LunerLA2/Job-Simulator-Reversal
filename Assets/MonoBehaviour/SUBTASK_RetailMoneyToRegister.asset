@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302042b27749c0e3372547227a137bf0, type: 3}
+  m_Name: SUBTASK_RetailMoneyToRegister
+  m_EditorClassIdentifier:
+  subtaskIconLayoutType: 0
+  actionEventConditions:
+  - actionEventData: {fileID: 11400000, guid: d25880389aa4cdd459debdb1e1790c45, type: 2}
+    worldItemData1: {fileID: 11400000, guid: f10bdcd0fc7c85a4582569d6eba0733e, type: 2}
+    worldItemData2: {fileID: 11400000, guid: c9f90a72a6d1eda41918a5ff26397331, type: 2}
+    amount: 0
+    isPositive: 1
+  - actionEventData: {fileID: 11400000, guid: 273bba52621ef8e47b524cb3c200dfb8, type: 2}
+    worldItemData1: {fileID: 11400000, guid: f10bdcd0fc7c85a4582569d6eba0733e, type: 2}
+    worldItemData2: {fileID: 11400000, guid: c9f90a72a6d1eda41918a5ff26397331, type: 2}
+    amount: 0
+    isPositive: 0
+  - actionEventData: {fileID: 11400000, guid: d25880389aa4cdd459debdb1e1790c45, type: 2}
+    worldItemData1: {fileID: 11400000, guid: 38925551cf3ceae40be0f0a4b703508b, type: 2}
+    worldItemData2: {fileID: 11400000, guid: c9f90a72a6d1eda41918a5ff26397331, type: 2}
+    amount: 0
+    isPositive: 1
+  - actionEventData: {fileID: 11400000, guid: 273bba52621ef8e47b524cb3c200dfb8, type: 2}
+    worldItemData1: {fileID: 11400000, guid: 38925551cf3ceae40be0f0a4b703508b, type: 2}
+    worldItemData2: {fileID: 11400000, guid: c9f90a72a6d1eda41918a5ff26397331, type: 2}
+    amount: 0
+    isPositive: 0
+  layoutDependantSpriteOne: {fileID: 21300000, guid: 3ec2f7cb35828f449b62206c13cf66fe, type: 2}
+  layoutDependantSpriteTwo: {fileID: 21300000, guid: afb0cb8c2070b8440ba23c1168b48cd1, type: 2}
+  layoutDependantSpriteThree: {fileID: 0}
+  layoutDependantSpriteFour: {fileID: 0}
+  layoutDependantSpriteFive: {fileID: 0}
+  counterSize: 0
+  hideCounterOnJobBoard: 0
+  onlyTrackProgressWhenVisible: 1
+  subtasksToAutoComplete: []
+  disallowUncompleteOnAutoCompletedSubtasks: 0

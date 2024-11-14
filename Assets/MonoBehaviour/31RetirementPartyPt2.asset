@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 31RetirementPartyPt2
+  m_EditorClassIdentifier:
+  textBody: '"Anyways, do you think you could type up a quick card to go with this?" they ask. "It would make it a lot more [PERSONAL]." They look at you expectantly, obviously enthused at the thoughtfulness of your gift.'
+  options:
+  - Type up a thoughtful, heartwarming retirement card.
+  - Hand over a copy of your latest TPS report.
+  - Mash the keyboard repeatedly; some sequence of 1's and 0's will suffice.
+  results:
+  - '"I''ll handle the rest," they say, smiling. "Thanks for helping out!"'
+  - '"I''ll handle the rest," they say, smiling. "Thanks for helping out!"'
+  - Your co-worker looks horrified at the letter you hand over and floats off in a hurry. Apparently that particular binary sequence was [OFFENSIVE]. Expect a visit from BOT RESOURCES.
+  goToTaskOnComplete:
+  - 32
+  - 32
+  - 32
+  isStartOfNewTask: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 25LunchtimePt2-Alt
+  m_EditorClassIdentifier:
+  textBody: Your coworker hands you another dollar.
+  options:
+  - Burrito
+  - Candy Bar
+  - Pretzel
+  - Chips
+  results:
+  - You insert your coworker's money, buy a burrito, and consume it in front of them. "Aww, did you j- what th- NOT COOL, HUMAN!"
+  - You purchase the candy bar, but it gets stuck in the machine. After shaking it a few times, the candy bar falls loose. You hand it to your coworker, who glares at you furiously.
+  - You insert your coworker's money, buy a pretzel, and consume it in front of them. "Aww, did you j- what th- NOT COOL, HUMAN!"
+  - You insert your coworker's money, buy a bag of chips, and consume it in front of them. "Aww, did you j- what th- NOT COOL, HUMAN!"
+  goToTaskOnComplete:
+  - 25
+  - 27
+  - 25
+  - 25
+  isStartOfNewTask: 0

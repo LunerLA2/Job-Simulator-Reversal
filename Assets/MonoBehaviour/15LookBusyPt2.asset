@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 15LookBusyPt2
+  m_EditorClassIdentifier:
+  textBody: '"Hey human!" says SUPERVISOR BOT, enthusiastically hovering over to your desk. "You''ve been doing a [GOOD JOB]. I''ve been thinking about giving you a [PROMOTION]! In fact, if nothing goes wrong in the next 10 seconds, the job''s yours."'
+  options:
+  - Stand perfectly still. You wouldn't want to disappoint SUPERVISOR BOT.
+  - Throw your stapler at him. You don't work for the man, mannnn.
+  results:
+  - SUPERVISOR BOT smiles. "See? That's why I like you. Always working hard to climb that ladder. Take this. The new position's yours!"
+  - '"See? That''s what I like about you!" SUPERVISOR BOT proclaims, proudly. "You''re a [REBEL]! Always thinkin'' [OUTSIDE THE BOX]! The job''s yours!"'
+  goToTaskOnComplete:
+  - 16
+  - 16
+  isStartOfNewTask: 0

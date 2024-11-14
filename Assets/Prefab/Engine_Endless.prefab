@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1934212668327635
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4729085779901516}
+  - 114: {fileID: 114499281349108612}
+  - 114: {fileID: 114983608718491913}
+  m_Layer: 0
+  m_Name: Engine_Endless
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4729085779901516
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934212668327635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114499281349108612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934212668327635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114983608718491913}
+--- !u!114 &114983608718491913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934212668327635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d7194f018f7472f49fd2df8a7f7191, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabs:
+  - {fileID: 114435490495433016, guid: f364a4d40b0a22248945d6ca959af9b4, type: 2}
+  - {fileID: 114476046385225980, guid: d32c1b1a9308a3844b5ffbed5db2d688, type: 2}
+  goodBatteryPrefabs:
+  - {fileID: 1718163096806235, guid: b7bb37283121f3244854aeb0686db7b0, type: 2}
+  - {fileID: 1642588888893116, guid: d9a76e823621f2a458bcea5f34fa1733, type: 2}
+  - {fileID: 1761276638337060, guid: 4c166609af0745b4ebcefa82f9e59e1b, type: 2}
+  - {fileID: 1935626452257065, guid: 6b13b5331d36eab45920d63ea8d7b056, type: 2}
+  - {fileID: 1526431609904091, guid: 2e8b23e7b710ae04681db63204fdb6d3, type: 2}
+  - {fileID: 1999586625744367, guid: 3a2aa0b73897ed94b91a725caa8c671f, type: 2}
+  - {fileID: 1004277259703106, guid: 10caad585ea99f0489d7f0e8a585b015, type: 2}
+  goodPistonPrefabs:
+  - {fileID: 1588132830954335, guid: 11ecdc4534e38504baf527964b004c73, type: 2}
+  - {fileID: 1677212652042371, guid: 77621101e0e8ae64482eb25c0fc37639, type: 2}
+  goodAirFilterPrefabs:
+  - {fileID: 1766506345755584, guid: 270a8ce3351a0e044a71281eea923408, type: 2}
+  badBatteryPrefabs:
+  - {fileID: 1935626452257065, guid: 6b13b5331d36eab45920d63ea8d7b056, type: 2}
+  badPistonPrefabs:
+  - {fileID: 1530448965847143, guid: 9e18289dd9c605e49a52f86a8c64f045, type: 2}
+  useBadBattery: 0
+  useBadPistons: 0
+  useNoPistons: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1934212668327635}
+  m_IsPrefabParent: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 16LookBusyPt3
+  m_EditorClassIdentifier:
+  textBody: SUPERVISOR BOT hands you a plaque that reads "HUMAN - Assistant to the Supervisor." It's a standard black name plaque with beautiful gold lettering. It must have cost at least two dollars to make.
+  options:
+  - Proudly place the plaque on your desk.
+  - Throw the plaque in the garbage.
+  results:
+  - With a smile, you gently put the plaque on your desk. Assistant to the Supervisor. You like the sound of that!
+  - The plaque lands in the garbage with a satisfying THUD.
+  goToTaskOnComplete:
+  - 17
+  - 17
+  isStartOfNewTask: 0

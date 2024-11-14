@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1554214891207382
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4473118060260984}
+  - 114: {fileID: 114233037579853813}
+  m_Layer: 0
+  m_Name: MasterVehiclePrefabCEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1254452252676297
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4999045605014364}
+  - 114: {fileID: 114442384331018882}
+  m_Layer: 0
+  m_Name: DrivingSoundSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4473118060260984
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554214891207382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4999045605014364}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114233037579853813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554214891207382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a40e4a47f5b7380e65904825605201a3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  endlessDriversSeatPrefab: {fileID: 0}
+  masterWheelAttachmentControllerPrefab: {fileID: 114300564287197655, guid: 3f8e7916d1d2eb646bd4e8e494a4a2df, type: 2}
+  masterHeadlightAttachmentControllerPrefab:
+  - {fileID: 114092010463050971, guid: d9f2be286eea2bf49b9d46c48f2dd340, type: 2}
+  - {fileID: 114337538957435485, guid: 25ec935d32dbf504abae7b3dccfd0b14, type: 2}
+  masterLicensePlateAttachmentControllerPrefab: {fileID: 114305047897804985, guid: a0d92bfe80d0f0b4d94f43debced442f, type: 2}
+  masterHoodOrnamentAttacmentControllerPrefab: {fileID: 114705716832242737, guid: c5a0c82f7853eef479d39db4f6e79b74, type: 2}
+  masterTrinketMountPrefab: {fileID: 114005106789269158, guid: 87d6dd39b5945f84f8bd4844b80814ec, type: 2}
+  carDrivingAudioSource: {fileID: 114442384331018882}
+  detailTextureOnPaint: {fileID: 0}
+--- !u!4 &4999045605014364
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254452252676297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4473118060260984}
+  m_RootOrder: 0
+--- !u!114 &114442384331018882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254452252676297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30fac914b65b4a1d6e9e0b3a17c31e08, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  enableSpatialization: 1
+  disableReflections: 1
+  gain: 0
+  inverseSquareAttenuation: 0
+  near: 1
+  far: 10
+  playOnStart: 0
+  defaultAudioClip: {fileID: 0}
+  defaultIsLooping: 1
+  defaultStartingVolume: 1
+  useAlreadyCreatedAudioSource: 0
+  isBypass: 0
+  useAudioSourceOnly: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1554214891207382}
+  m_IsPrefabParent: 1

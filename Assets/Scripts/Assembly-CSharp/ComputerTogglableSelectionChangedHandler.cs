@@ -1,0 +1,1 @@
+public delegate void ComputerTogglableSelectionChangedHandler(ComputerTogglable togglable, bool isSelected);

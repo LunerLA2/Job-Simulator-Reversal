@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302042b27749c0e3372547227a137bf0, type: 3}
+  m_Name: SUBTASK_ShowFamilyPhoto
+  m_EditorClassIdentifier:
+  subtaskIconLayoutType: 0
+  actionEventConditions:
+  - actionEventData: {fileID: 11400000, guid: 9fdc7d9aa26cba543b4ba2125f1e3446, type: 2}
+    worldItemData1: {fileID: 11400000, guid: 498747b8223782b4d8365cc05e82e0f6, type: 2}
+    worldItemData2: {fileID: 11400000, guid: 88268c5cc9d6d154890046699239e459, type: 2}
+    amount: 1
+    isPositive: 1
+  layoutDependantSpriteOne: {fileID: 21300000, guid: b68b4cb121a04ba459bf5cf50cdfa290, type: 2}
+  layoutDependantSpriteTwo: {fileID: 21300000, guid: 698b2d19686740c41becfa2d7b9f4577, type: 2}
+  layoutDependantSpriteThree: {fileID: 0}
+  layoutDependantSpriteFour: {fileID: 0}
+  layoutDependantSpriteFive: {fileID: 0}
+  counterSize: 0
+  hideCounterOnJobBoard: 0
+  onlyTrackProgressWhenVisible: 1
+  subtasksToAutoComplete:
+  - {fileID: 11400000, guid: 57df79f408130114caac6bab5e6de791, type: 2}
+  - {fileID: 11400000, guid: f551202f3f4a6d94ba21233b4990c60b, type: 2}
+  disallowUncompleteOnAutoCompletedSubtasks: 0

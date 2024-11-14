@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0eebc8458fbd6b6c43120d5f379780, type: 3}
+  m_Name: PCSlzBobbleAttachPoint
+  m_EditorClassIdentifier:
+  surfaceTypeData: {fileID: 0}
+  itemFullName:
+  validActionEvents:
+  - {fileID: 11400000, guid: 6097a83f1521a2c4f90fccdaeae61319, type: 2}
+  - {fileID: 11400000, guid: ecfa680e310a2604f95d41f0a85d0080, type: 2}
+  cost: 0
+  overallColor: {r: 0, g: 0, b: 0, a: 0}
+  viscosityAsFluid: 0.1
+  requiresRigidbodyRemover: 0
+  soundsWhenSomethingAttached:
+  - {fileID: 8300000, guid: fe390eee870d72c40bfec71d9d36bc9f, type: 3}
+  soundsWhenSomethingDetached:
+  - {fileID: 8300000, guid: 6e2a5de90a76747478f756d70d75a28a, type: 3}
+  - {fileID: 8300000, guid: a46ec5766519fb8499c5a00159d8bc8d, type: 3}
+  - {fileID: 8300000, guid: 5583e62872744564680a862510381c8f, type: 3}
+  soundsWhenSomethingRefilled: []

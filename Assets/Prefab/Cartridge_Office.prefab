@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1318305672459514
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4523441055260718}
+  - 114: {fileID: 114003413377285739}
+  - 114: {fileID: 114862636994764845}
+  m_Layer: 0
+  m_Name: Cartridge_Office
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4523441055260718
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318305672459514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.022, y: 0.2, z: -0.152}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114003413377285739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318305672459514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114862636994764845}
+--- !u!114 &114862636994764845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1318305672459514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d69407e94bc03864a516a92f5667af0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefab: {fileID: 114303682356489844, guid: 07d9af103a0f4354ba10397a8c1c2986, type: 2}
+  jobData: {fileID: 11400000, guid: 888b261805db24d42996352aa5ad7ca5, type: 2}
+  altJobForGamedev: {fileID: 11400000, guid: 1511270221990704898efc9e183feefa, type: 2}
+  cartridgeArt: {fileID: 2100000, guid: aeca17ac538d9194c815d763f480f551, type: 2}
+  cartridgeCompleteArt: {fileID: 2100000, guid: 50066cd0894a0854690ca6d5c590f680, type: 2}
+  cartridgeCompleteOvertimeArt: {fileID: 2100000, guid: dec94947ca856644395f75b37e798a53, type: 2}
+  worldItemData: {fileID: 11400000, guid: 03a8ea9bdaadb5f4584debe26ef00e7e, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1318305672459514}
+  m_IsPrefabParent: 1

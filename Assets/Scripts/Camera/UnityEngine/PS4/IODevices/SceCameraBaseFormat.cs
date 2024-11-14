@@ -1,0 +1,11 @@
+namespace UnityEngine.PS4.IODevices
+{
+	public enum SceCameraBaseFormat
+	{
+		SCE_CAMERA_FORMAT_YUV422 = 0,
+		SCE_CAMERA_FORMAT_RAW16 = 1,
+		SCE_CAMERA_FORMAT_RAW8 = 2,
+		SCE_CAMERA_FORMAT_NO_USE = 16,
+		SCE_CAMERA_FORMAT_UNKNOWN = 255
+	}
+}

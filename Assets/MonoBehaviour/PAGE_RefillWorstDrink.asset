@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079037e720330f5d079d82df10bf2d03, type: 3}
+  m_Name: PAGE_RefillWorstDrink
+  m_EditorClassIdentifier:
+  pageLayoutType: 3
+  onlyAppearOnCertainLayouts: 0
+  layoutsToAppearOn: []
+  subtasks:
+  - {fileID: 11400000, guid: b46dcc2620e2eff479530b9b002e1fde, type: 2}
+  - {fileID: 11400000, guid: 5b90e188b7e8e904496688a215c6b40a, type: 2}
+  secsOfBlankBeforeAnimatingIn: 6.5
+  secsToLingerOnCompletedSubtasks: 0
+  secsOfBlankAfterAnimatingOut: 3
+  layoutDependantSpriteOne: {fileID: 21300000, guid: a0282e4eeadd2da40b722f3c1f8a23d9, type: 2}

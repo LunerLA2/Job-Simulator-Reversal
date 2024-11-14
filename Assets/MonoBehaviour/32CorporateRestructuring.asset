@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 32CorporateRestructuring
+  m_EditorClassIdentifier:
+  textBody: Another card, another JOB. Boss Bot wheels a cart over to you with a pile of resumes. "Yeahhh," he drones. "Things aren't going too well. We need to find a couple bots we can let go. Take a look at these employee evaluations." Do you fire...
+  options:
+  - Safari Bot
+  - Fancy Bot
+  - Bandit Bot
+  - Cowboy Bot
+  results:
+  - Safari Bot dejectedly levitates by. Safari Bot has seen plenty of sights while out adventuring, but none so sad as the sight of the lobby door.
+  - '"First my stapler jams, and now this?" cries Fancy Bot on the way out the door. You eye your stapler lovingly. Your stapler never jams.'
+  - '"Aww, it was my first day!" says Bandit Bot, a box full of cheddar in... hand? Bandit Bot seems likely to return to a life of crime.'
+  - '"Awwww, I was savin'' up to by a new hard drive!" says Cowboy Bot on the way out.'
+  goToTaskOnComplete:
+  - 33
+  - 34
+  - 35
+  - 36
+  isStartOfNewTask: 1

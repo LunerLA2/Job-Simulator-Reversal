@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1208574587622579
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4848898094296406}
+  - 114: {fileID: 114134903747801973}
+  - 114: {fileID: 114425549793239572}
+  m_Layer: 0
+  m_Name: VehicleRustBucket
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4848898094296406
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1208574587622579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.19992873, y: -0.00044870377, z: 4.5080223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114134903747801973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1208574587622579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114425549793239572}
+--- !u!114 &114425549793239572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1208574587622579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ccb162d0a76c221a02eefe6244503c6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  masterVehiclePrefab: {fileID: 114751523307427343, guid: 07b87b725892fd24fb662978212ee60c, type: 2}
+  chassisPrefab: {fileID: 114610217874595603, guid: 8a3d872bb6365af4b9348fb13a6187ca, type: 2}
+  chassisPrefabPSVR: {fileID: 0}
+  defaultColor: {r: 0.44117647, g: 0.25826275, b: 0.20436853, a: 1}
+  baseCarTexture: {fileID: 2800000, guid: dc49301dd458e5f4e92c97f0c68d9a0b, type: 3}
+  detailCarTexture: {fileID: 2800000, guid: 049d820720170944baac6f4584422930, type: 3}
+  hideDetailTextureOncePainted: 0
+  swapDetailTextureOncePainted: 1
+  detailCarTextureOnPaint: {fileID: 2800000, guid: 5e7ad4b982e890e44a969fd531abd84b, type: 3}
+  interiorPrefab: {fileID: 1365918289638321, guid: 6dd6c2641144d1b48a8e49d21423f55f, type: 2}
+  psvrInteriorPrefab: {fileID: 0}
+  enginePrefab: {fileID: 1520543410582729, guid: 5bf3ec5b87d09054181d56b621502efc, type: 2}
+  vehicleWorldItemData: {fileID: 11400000, guid: 8c5706d91ff82c34c820a17a70c904c1, type: 2}
+  customHoodData: {fileID: 11400000, guid: ea98a718b59f27f4a8c314c19b92cf56, type: 2}
+  customDoorData: {fileID: 11400000, guid: 37ef35fca3005db478579eced8e6c2fa, type: 2}
+  customTrunkData: {fileID: 11400000, guid: 77e5c889361501f498e7bfd43bf52e52, type: 2}
+  interiorTrinketMountData: {fileID: 0}
+  wheelPrefabs:
+  - {fileID: 1724913964626750, guid: f5e7ecf2cd5557b449876b9c779a03a6, type: 2}
+  wheelIndexesThatStartDeflated: []
+  headlightPrefab: {fileID: 1931937217539892, guid: 8e8989eec2def7e42b63dc5710d3db78, type: 2}
+  licensePlatePrefab: {fileID: 1852712048486482, guid: d820b702e85fc99488f82d38dc288380, type: 2}
+  gasTankPrefab: {fileID: 1683335866465723, guid: 4e170f0d4fc33c644aa99f7a1896acd4, type: 2}
+  hoodOrnamentPrefab: {fileID: 1180869652661849, guid: eb1519338cec0d44dae25a08ee1c572a, type: 2}
+  driverSeatUniqueObjectName: DriverSeat_Redneck
+  optionalDriveInSound: {fileID: 0}
+  optionalDriveOutSound: {fileID: 0}
+  isFilterDirty: 1
+  setFluidColor: 0
+  initialFluid: {fileID: 0}
+  initialFluidPercentFull: 0
+  defaultTrinketObjects: []
+  extraHardware: []
+  extraHardwarePSVROnly: []
+  extraHardwaveNonPSVROnly: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1208574587622579}
+  m_IsPrefabParent: 1

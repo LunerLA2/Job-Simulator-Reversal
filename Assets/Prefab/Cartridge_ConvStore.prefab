@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1499464402100237
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4817396564089678}
+  - 114: {fileID: 114574115021524412}
+  - 114: {fileID: 114879409550119424}
+  m_Layer: 0
+  m_Name: Cartridge_ConvStore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4817396564089678
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1499464402100237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.125, y: 0.2, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114574115021524412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1499464402100237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ed36b74083adf002ddf5273427dca1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabIniter: {fileID: 114879409550119424}
+--- !u!114 &114879409550119424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1499464402100237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d69407e94bc03864a516a92f5667af0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefab: {fileID: 114303682356489844, guid: 07d9af103a0f4354ba10397a8c1c2986, type: 2}
+  jobData: {fileID: 11400000, guid: dd4a388adbee8aa438cc51e5efa6f0cc, type: 2}
+  altJobForGamedev: {fileID: 0}
+  cartridgeArt: {fileID: 2100000, guid: 5758cf05cae43b84aae2a4aacc3a2eae, type: 2}
+  cartridgeCompleteArt: {fileID: 2100000, guid: 3e45c9db6ce99d546a767e73a2963d54, type: 2}
+  cartridgeCompleteOvertimeArt: {fileID: 2100000, guid: e879b3d15a13a2447a09ea2a8c02ed71, type: 2}
+  worldItemData: {fileID: 11400000, guid: 79f1c7c51bee02b498a9b7b4b9c1e825, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1499464402100237}
+  m_IsPrefabParent: 1

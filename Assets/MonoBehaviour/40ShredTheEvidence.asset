@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c97d055090a1dd6c14d744f52dee822, type: 3}
+  m_Name: 40ShredTheEvidence
+  m_EditorClassIdentifier:
+  textBody: Another ticket pops up and you pluck it from its place in the fax machine. BOSS BOT scurries in with an industrial-sized shredding machine. "Yeahhh, hey look," he says, uncharacteristically nervous but still somehow profoundly monotone. "I've got some papers I need you to shred. It needs to be you for... legal reasons? I don't really want to get into it." He hoists a briefcase up. "Here, just look in the case. Shred everything. Just get rid of it."
+  options:
+  - Open the case and shred its contents.
+  - Shred the entire case. Helps to be thorough, and you don't want to know what's in there.
+  results:
+  - Inside the case are business records and several wads of cash. Whatever BOSS BOT is into, it's most certainly not legal. This probably isn't either. Oh well! You deftly shove the money and documents into the shredder, spraying paper all over the floor of the office.
+  - You grab the entire briefcase, and with a bit of jamming, manage to shove it into the shredder. The machine heaves and wheezes as it chews through the leather and metal buckles, but manages to destroy the entire briefcase and its contents.
+  goToTaskOnComplete:
+  - 41
+  - 41
+  isStartOfNewTask: 1
